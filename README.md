@@ -107,3 +107,6 @@ The secret key was accidentally pushed to the repo.
 * Generate the new one key here [Random django key]("https://djecrety.ir/")
 * store that key in gitpod settings environment variables as SECRET_KEY
 * in settings.py set the key like this `SECRET_KEY = os.environ.get('SECRET_KEY', '')`
+
+
+https://unsplash.com/photos/23h4tMUzGZk - image 
