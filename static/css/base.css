@@ -95,3 +95,31 @@ body {
         padding-top: 164px;
     }
 }
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+
+    .navbar ul {
+        font-size: 0.9rem;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .navbar ul li a {
+        padding: 8px 10px;
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+}
