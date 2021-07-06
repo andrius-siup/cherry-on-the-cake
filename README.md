@@ -109,4 +109,9 @@ The secret key was accidentally pushed to the repo.
 * in settings.py set the key like this `SECRET_KEY = os.environ.get('SECRET_KEY', '')`
 
 
-https://unsplash.com/photos/23h4tMUzGZk - image 
+
+
+## Media
+
+https://unsplash.com/photos/23h4tMUzGZk - hero image 
+https://www.geezersboxing.co.uk/punching-bags/speedbags-platforms/geezers-fixed-speedball-platform 
