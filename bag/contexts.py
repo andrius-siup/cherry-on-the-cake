@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 
 
-def bag_content(request):
+def bag_contents(request):
     # initialized to zero
     bag_items = []
     total = 0
