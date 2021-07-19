@@ -102,12 +102,15 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 Happy coding!
 
 
-The secret key was accidentally pushed to the repo. 
+## The secret key was accidentally pushed to the repo. 
 * Removed the secret key from settings.py
 * Generate the new one key here [Random django key]("https://djecrety.ir/")
 * store that key in gitpod settings environment variables as SECRET_KEY
 * in settings.py set the key like this `SECRET_KEY = os.environ.get('SECRET_KEY', '')`
 
+
+## The Stripe Issues:
+* sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the  stripe endpoint. 
 
 
 
