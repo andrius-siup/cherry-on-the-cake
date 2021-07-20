@@ -96,6 +96,7 @@ def add_product(request):
     return render(request, template, context)
 
 
+@staff_member_required
 def edit_product(request, product_id):
     """Edit product in the store"""
     product = get_object_or_404(Product, pk=product_id)
