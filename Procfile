@@ -1,0 +1,1 @@
+web: gunicorn x_cherry.wsgi:application
