@@ -123,28 +123,26 @@ WSGI_APPLICATION = 'x_cherry.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    # print(os.environ.get('DATABASE_URL'))
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    print("Databse URL not found. Using SQLite3")
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
-
-
-# This run local db
-# DATABASES = {
-#     'default': {
+# if 'DATABASE_URL' in os.environ:
+#     # print(os.environ.get('DATABASE_URL'))
+#     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+# else:
+#     # print("Databse URL not found. Using SQLite3")
+#     DATABASES = {
+#         'default': {
 #             'ENGINE': 'django.db.backends.sqlite3',
 #             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #         }
 #     }
+
+
+# This run local db
+DATABASES = {
+    'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -190,6 +188,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # To connect django to S3 bucket
 if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'andrius-siup-x-cherry'
     AWS_S3_REGION_NAME = 'eu-west-1'
