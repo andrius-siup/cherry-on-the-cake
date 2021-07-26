@@ -299,10 +299,16 @@ a.category-badge > span.badge:hover {
     body {
         height: calc(100vh - 116px);
     }
-
+    /* ------------------------------- Home page */
     .display-4.logo-font.text-black {
         font-size: 2rem;
     }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    /* ------------------------------- Navigation bar */
 
     .nav-link {
         padding: 0.15rem;
@@ -314,10 +320,6 @@ a.category-badge > span.badge:hover {
 
     .navbar-toggler {
         padding: .6rem .6rem;
-        font-size: .9rem;
-    }
-
-    #delivery-banner h4 {
         font-size: .9rem;
     }
 
@@ -335,6 +337,22 @@ a.category-badge > span.badge:hover {
 
     .list-inline-item:not(:last-child) {
         margin-right: 0;
+    }
+
+    /* ------------------------------- Product details */
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 
 }
