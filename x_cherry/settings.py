@@ -121,26 +121,27 @@ WSGI_APPLICATION = 'x_cherry.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# if 'DATABASE_URL' in os.environ:
-#     print("Postgres")
-#     # print(os.environ.get('DATABASE_URL'))
-#     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
-# else:
-#     # print("Databse URL not found. Using SQLite3")
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
-
-# # This run local db
-DATABASES = {
-    'default': {
+if 'DATABASE_URL' in os.environ:
+    print("Postgres")
+    # print(os.environ.get('DATABASE_URL'))
+    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+else:
+    # print("Databse URL not found. Using SQLite3")
+    DATABASES = {
+        'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+
+# # This run local db
+# print("Local")
+# DATABASES = {
+#     'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
