@@ -324,7 +324,7 @@ a.category-badge > span.badge:hover {
     }
 
     .navbar ul {
-        font-size: 1rem;
+        font-size: .9rem; /* was 1rem, reduce cause broke nav  */
         padding-top: 0;
         padding-right: 0;
         padding-left: 0;
