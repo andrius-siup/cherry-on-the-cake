@@ -20,6 +20,10 @@ body {
     width: 1.5rem;
 }
 
+h2.logo-font strong {
+    color: #842e23;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
