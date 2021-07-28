@@ -19,15 +19,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                {% for post in posts %}
-                    <div class="card">
-                        <h2>{{ post.title }}</h2>
-                        <p>{{ post.content }}</p>
-                        <p><small>{{ post.created_date }}</small></p>
-                        <p><strong>{{ post.created_by }}</strong></p>
-                    </div>
-                {% endfor %}
+            <div class="post-container col-10 offset-1">
+                <div class="row mt-1 mb-2"></div>
+                <div class="row">
+                    {% for post in posts reversed %}
+                        <div class="col-12 col-lg-6 col-xl-4">
+                            <div class="card h-100 border-0">
+                                <h2>{{ post.title }}</h2>
+                                <p>{{ post.content }}</p>
+                                <p><small><em>{{ post.created_date }}</em></small></p>
+                                <p><strong>{{ post.created_by }}</strong></p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
