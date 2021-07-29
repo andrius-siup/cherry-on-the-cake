@@ -18,7 +18,7 @@ def posts(request):
             sortkey = request.GET['sort']
             sort = sortkey
             if sortkey == 'name':
-                sortkey ='lower_name'
+                sortkey = 'lower_name'
                 posts = post.annotate(lower_name=Lower('name'))
 
             if 'direction' in request.GET:
