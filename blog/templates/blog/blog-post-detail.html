@@ -33,6 +33,12 @@
                         <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p>
                         <p>Created by: <strong>{{ post.created_by }}</strong></p>
                     </div>
+                    <a href="{% url 'posts' %}" class="btn btn-outline-black rounded-0">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase">Back to Blog</span>
+                    </a>
                 </div>
             </div>
         </div>
