@@ -30,7 +30,14 @@
                         </div>
                     </div>
                     <div class="card-footer bg-white pt-0 border-0 text-left">
-                        <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p>
+                        <!-- <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p> -->
+                        {% if post.category %}
+                            <p class="small mt-1 mb-0">
+                                <a href="{% url 'posts' %}?category={{ post.category.name }}" class="text-muted">
+                                    <i class="fas fa-tag mr-1"></i>{{ post.category.friendly_name }}
+                                </a>
+                            </p>
+                        {% endif %}
                         <p>Created by: <strong>{{ post.created_by }}</strong></p>
                     </div>
                     <a href="{% url 'posts' %}" class="btn btn-outline-black rounded-0">

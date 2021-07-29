@@ -15,6 +15,11 @@
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">X Cherry Blog</h2>
+                {% for c in current_categories %}
+                    <a href="{% url 'posts' %}?category={{ c.name }}" class="category-badge text-decoration-none">
+                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-black">{{ c.friendly_name }}</span>
+                    </a>
+                {% endfor %}
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -24,7 +29,7 @@
                 <form method="GET" action="{% url 'posts' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q"
-                            placeholder="Search our site">
+                            placeholder="Search our blog">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -45,7 +50,14 @@
                             <div class="card h-100 border-0">
                                 <div class="card-body text-left">
                                     <h2>{{ post.title }}</h2>
-                                    <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p>
+                                    <!-- <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p> -->
+                                    {% if post.category %}
+                                        <p class="small mt-1 mb-0">
+                                            <a href="{% url 'posts' %}?category={{ post.category.name }}" class="text-muted">
+                                                <i class="fas fa-tag mr-1"></i>{{ post.category.friendly_name }}
+                                            </a>
+                                        </p>
+                                    {% endif %}
                                     <p>{{ post.content|truncatewords:50 }}</p>
                                     <p><small class="text-muted">{{ post.created_date }}</small></p>
                                     <p><strong>{{ post.created_by }}</strong></p>
