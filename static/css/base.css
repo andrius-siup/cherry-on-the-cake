@@ -270,8 +270,14 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
-/* -------------------------------- Product Form */
+/* -------------------------------- Blog posts */
 .blog-container {
+    margin-top: 160px;
+}
+
+/* -------------------------------- Blog post detail */
+
+.post-detail-container {
     margin-top: 160px;
 }
 
