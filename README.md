@@ -116,5 +116,9 @@ Happy coding!
 
 ## Media
 
-https://unsplash.com/photos/23h4tMUzGZk - hero image 
-https://www.geezersboxing.co.uk/punching-bags/speedbags-platforms/geezers-fixed-speedball-platform 
+[hero image](https://unsplash.com/photos/23h4tMUzGZk) 
+
+[speed platform](https://www.geezersboxing.co.uk/punching-bags/speedbags-platforms/geezers-fixed-speedball-platform) 
+
+## Content
+[about gloves](https://protips.dickssportinggoods.com/sports-and-activities/more-sports/how-to-choose-the-right-size-boxing-gloves) 
