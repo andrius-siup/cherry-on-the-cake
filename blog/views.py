@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Post
 
 
-def blogs(request):
+def posts(request):
     """ A view to show all blog posts """
 
     posts = Post.objects.all()
@@ -12,3 +12,6 @@ def blogs(request):
     }
 
     return render(request, "blog/blogs.html", context)
+
+
+
