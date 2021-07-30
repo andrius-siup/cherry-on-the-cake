@@ -7,10 +7,10 @@ class PostAdmin(admin.ModelAdmin):
         'title',
         'content',
         'created_by',
-        'created_date',
+        'date',
     )
 
-    ordering = ('created_date',)
+    ordering = ('date',)
 
 
 class CategoryAdmin(admin.ModelAdmin):

@@ -54,8 +54,8 @@
                             <option value="title_desc" {% if current_sorting == 'title_desc' %}selected{% endif %}>Name (Z-A)</option>
                             <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
                             <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
-                            <option value="created_date_asc" {% if current_sorting == 'created_date_asc' %}selected{% endif %}>Date (Latest-Oldest)</option>
-                            <option value="created_date_desc" {% if current_sorting == 'created_date_desc' %}selected{% endif %}>Date (Oldest-Latest)</option>
+                            <option value="date_asc" {% if current_sorting == 'date_asc' %}selected{% endif %}>Date (Latest-Oldest)</option>
+                            <option value="date_desc" {% if current_sorting == 'date_desc' %}selected{% endif %}>Date (Oldest-Latest)</option>
                         </select>
                     </div>
                 </div>
@@ -69,8 +69,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                {% for post in posts reversed %}
+            <div class="row">  
+                <!-- Need to remove reversed word, couse make issues in sorting -->
+                {% for post in posts reversed %}  
                     <div class="col-12 col-lg-6 col-xl-4">
                         <div class="card h-100 border-0">
                             <div class="card-body text-left">
@@ -84,7 +85,7 @@
                                     </p>
                                 {% endif %}
                                 <p>{{ post.content|truncatewords:50 }}</p>
-                                <p><small class="text-muted">{{ post.created_date }}</small></p>
+                                <p><small class="text-muted">{{ post.date }}</small></p>
                                 <p><strong>{{ post.created_by }}</strong></p>
                             </div>
                             <div class="card-footer bg-white pt-0 border-0 text-center">
