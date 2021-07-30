@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
+from django.db.models.functions import Lower
+
 from .models import Post, Category
 
 
@@ -20,7 +22,7 @@ def posts(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 posts = post.annotate(lower_name=Lower('name'))
-            # Sort by category name    
+            # Sort by category name
             if sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
