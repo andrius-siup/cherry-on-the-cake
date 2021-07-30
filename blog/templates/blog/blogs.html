@@ -39,7 +39,7 @@
                         </button>
                         <!-- Only admin have access -->
                         {% if request.user.is_superuser %}
-                            <a href="" class="btn btn-black border border-black rounded-0 add-post-btn">
+                            <a href="{% url 'add_blog_post' %}" class="btn btn-black border border-black rounded-0 add-post-btn">
                                 <span class="icon">
                                     <i class="fas fa-plus"></i>
                                 </span>
