@@ -24,5 +24,8 @@ class Post(models.Model):
     date = models.DateTimeField(auto_now=True)
     created_by = models.CharField(max_length=25, null=True, blank=True)
 
+    class Meta:
+        ordering = ['-date']
+
     def __str__(self):
         return self.title
