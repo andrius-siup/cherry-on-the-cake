@@ -4,6 +4,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Post, Category
+from .forms import PostForm
 
 
 def posts(request):
@@ -67,3 +68,14 @@ def blog_post_detail(request, post_id):
     }
 
     return render(request, "blog/blog-post-detail.html", context)
+
+
+def add_blog_post(request):
+    """ Add a post to the Blog """
+    form = PostForm()
+    template = 'blog/add_blog_post.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
