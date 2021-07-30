@@ -54,7 +54,8 @@
                                 <option value="title_desc" {% if current_sorting == 'title_desc' %}selected{% endif %}>Name (Z-A)</option>
                                 <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
                                 <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
-                                
+                                <option value="created_date_asc" {% if current_sorting == 'created_date_asc' %}selected{% endif %}>Date (Latest-Oldest)</option>
+                                <option value="created_date_desc" {% if current_sorting == 'created_date_desc' %}selected{% endif %}>Date (Oldest-Latest)</option>
                             </select>
                         </div>
                     </div>
