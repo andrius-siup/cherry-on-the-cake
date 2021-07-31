@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -58,6 +59,7 @@ def posts(request):
     return render(request, "blog/blogs.html", context)
 
 
+@login_required
 def blog_post_detail(request, post_id):
     """ A view to show individual blog post details """
     global post
@@ -70,8 +72,13 @@ def blog_post_detail(request, post_id):
     return render(request, "blog/blog-post-detail.html", context)
 
 
+@login_required
 def add_blog_post(request):
     """ Add a post to the Blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only blog owner can do that')
+        return redirect(reverse('home'))
+
     if request.method == 'POST':
         form = PostForm(request.POST, request.FILES)
         if form.is_valid():
@@ -91,8 +98,13 @@ def add_blog_post(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_blog_post(request, post_id):
     """ Edit a post in the blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only blog owner can do that')
+        return redirect(reverse('home'))
+
     post = get_object_or_404(Post, pk=post_id)
     if request.method == 'POST':
         form = PostForm(request.POST, request.FILES, instance=post)
@@ -117,6 +129,10 @@ def edit_blog_post(request, post_id):
 
 def delete_blog_post(request, post_id):
     """ Delete a post from the blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only blog owner can do that')
+        return redirect(reverse('home'))
+        
     post = get_object_or_404(Post, pk=post_id)
     post.delete()
     messages.success(request, 'Post deleted!')
