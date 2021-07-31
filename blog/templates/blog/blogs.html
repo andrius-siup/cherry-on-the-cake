@@ -95,6 +95,14 @@
                                 {% endif %}
                                 <p>{{ post.content|truncatewords:50 }}</p>
                                 <p><small class="text-muted">{{ post.date }}</small></p>
+                                {% if request.user.is_superuser %}
+                                    <p>
+                                        <small class="">
+                                            <a href="{% url 'edit_blog_post' post.id %}">Edit</a>
+                                            <a class="text-danger" href="{% url 'delete_blog_post' post.id %}">Delete</a>
+                                        </small>
+                                    </p>
+                                {% endif %}
                                 <p><strong>{{ post.created_by }}</strong></p>
                             </div>
                             <div class="card-footer bg-white pt-0 border-0 text-center">

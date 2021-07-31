@@ -30,6 +30,12 @@
                         </div>
                     </div>
                     <div class="card-footer bg-white pt-0 border-0 text-left">
+                        {% if request.user.is_superuser %}
+                            <small class="">
+                                <a href="{% url 'edit_blog_post' post.id %}">Edit</a>
+                                <a class="text-danger" href="{% url 'delete_blog_post' post.id %}">Delete</a>
+                            </small>
+                        {% endif %}
                         <!-- <p><small class="text-muted"><i class="fas fa-feather-alt"> {{ post.category }}</i></small></p> -->
                         {% if post.category %}
                             <p class="small mt-1 mb-0">
@@ -38,6 +44,7 @@
                                 </a>
                             </p>
                         {% endif %}
+                        <!-- Edit and Delete blog post links -->
                         <p>Created by: <strong>{{ post.created_by }}</strong></p>
                     </div>
                     <a href="{% url 'posts' %}" class="btn btn-outline-black rounded-0">
