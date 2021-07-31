@@ -132,7 +132,7 @@ def delete_blog_post(request, post_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only blog owner can do that')
         return redirect(reverse('home'))
-        
+
     post = get_object_or_404(Post, pk=post_id)
     post.delete()
     messages.success(request, 'Post deleted!')
