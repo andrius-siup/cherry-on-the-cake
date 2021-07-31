@@ -18,11 +18,11 @@ class Category(models.Model):
 
 
 class Post(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
-    title = models.CharField(max_length=254, null=True, blank=True)
-    content = models.CharField(max_length=100000, null=True, blank=True)
+    category = models.ForeignKey('Category', null=True, blank=False, on_delete=models.SET_NULL)
+    title = models.CharField(max_length=254, null=True, blank=False)
+    content = models.TextField()
     date = models.DateTimeField(auto_now=True)
-    created_by = models.CharField(max_length=25, null=True, blank=True)
+    created_by = models.CharField(max_length=25, null=True, blank=False)
 
     class Meta:
         ordering = ['-date']
