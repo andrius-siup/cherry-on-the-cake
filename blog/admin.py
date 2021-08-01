@@ -10,7 +10,7 @@ class PostAdmin(admin.ModelAdmin):
         'date',
     )
 
-    ordering = ('date',)
+    ordering = ('-date',)
 
 
 class CategoryAdmin(admin.ModelAdmin):
