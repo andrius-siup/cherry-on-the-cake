@@ -65,14 +65,18 @@ def blog_post_detail(request, post_id):
     global post
     post = get_object_or_404(Post, pk=post_id)
     form = BlogPostCommentForm()
-    comment = get_object_or_404(BlogPostComment, post=post)
-    
+    # comment = get_object_or_404(BlogPostComment, post=post)
+    comments = BlogPostComment.objects.filter(post=post)
+    template = 'blog/blog-post-detail.html'
+
     context = {
         'post': post,
-        'comment': comment,
+        'form': form,
+        'comments': comments,
+        'template': template,
     }
 
-    return render(request, "blog/blog-post-detail.html", context)
+    return render(request, template, context)
 
 
 @login_required
