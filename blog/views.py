@@ -4,8 +4,8 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Post, Category
-from .forms import PostForm
+from .models import Post, Category, BlogPostComment
+from .forms import PostForm, BlogPostCommentForm
 
 
 def posts(request):
@@ -64,9 +64,12 @@ def blog_post_detail(request, post_id):
     """ A view to show individual blog post details """
     global post
     post = get_object_or_404(Post, pk=post_id)
-
+    form = BlogPostCommentForm()
+    comment = get_object_or_404(BlogPostComment, post=post)
+    
     context = {
         'post': post,
+        'comment': comment,
     }
 
     return render(request, "blog/blog-post-detail.html", context)
@@ -74,7 +77,7 @@ def blog_post_detail(request, post_id):
 
 @login_required
 def add_blog_post(request):
-    """ Add a post to the Blog """
+    """ A view to show add a post to the Blog """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only blog owner can do that')
         return redirect(reverse('home'))
@@ -100,7 +103,7 @@ def add_blog_post(request):
 
 @login_required
 def edit_blog_post(request, post_id):
-    """ Edit a post in the blog """
+    """ A view to show edit a post in the blog """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only blog owner can do that')
         return redirect(reverse('home'))
@@ -128,7 +131,7 @@ def edit_blog_post(request, post_id):
 
 
 def delete_blog_post(request, post_id):
-    """ Delete a post from the blog """
+    """ A view to shoe delete a post from the blog """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only blog owner can do that')
         return redirect(reverse('home'))
@@ -137,3 +140,25 @@ def delete_blog_post(request, post_id):
     post.delete()
     messages.success(request, 'Post deleted!')
     return redirect(reverse('posts'))
+
+
+def add_post_comment(request, post_id):
+    """ A view to show add post comment """
+
+    if request.method == 'POST':
+        form = BlogPostCommentForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save()
+            messages.success(request, 'Successfully added comment!')
+            return redirect(reverse('blog_post_detail', args=[post.id]))
+        else:
+            messages.error(request, 'Failed to add comment. Please ensure the form is valid!')
+    else:
+        form = BlogPostCommentForm()
+
+    template = 'blog/blog-post-detail.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
