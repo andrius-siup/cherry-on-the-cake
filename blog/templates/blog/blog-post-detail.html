@@ -56,7 +56,17 @@
                 </div>
             </div>
         </div>
-       
+        <!-- Displaying comments -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                {% for comment in comments %}
+                    <h2>{{ comment.name }}</h2>
+                    <p class="text-muted">{{ comment.email }}</p>
+                    <p>{{ comment.content }}</p>
+                    <p>{{ comment.date }}</p>
+                {% endfor %}
+            </div>
+        </div>
         <!-- Add Comment Form -->
         <div class="row">
             <div class="col-12 col-md-6">
