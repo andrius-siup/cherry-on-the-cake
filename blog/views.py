@@ -154,7 +154,7 @@ def add_post_comment(request, post_id):
         if form.is_valid():
             post = form.save()
             messages.success(request, 'Successfully added comment!')
-            return redirect(reverse('blog_post_detail', args=[post.id]))
+            return redirect(reverse('blog_post_detail', args=[post_id]))
         else:
             messages.error(request, 'Failed to add comment. Please ensure the form is valid!')
     else:
@@ -166,3 +166,14 @@ def add_post_comment(request, post_id):
     }
 
     return render(request, template, context)
+
+
+def delete_post_comment(request, comment_id):
+    """ A view to delete a comment from the post """
+    comment = get_object_or_404(BlogPostComment, pk=comment_id)
+    post = comment.post
+    comment.delete()
+
+    messages.success(request, 'Comment deleted!')
+
+    return redirect(reverse('blog_post_detail', args=[post.id]))
