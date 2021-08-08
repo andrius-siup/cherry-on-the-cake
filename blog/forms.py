@@ -39,18 +39,18 @@ class BlogPostCommentForm(forms.ModelForm):
 
     class Meta:
         model = BlogPostComment
-        fields = '__all__'  # ('name', 'email', 'content',)
+        fields = ('name', 'email', 'content',)  # '__all__'
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         placeholders = {
-            'post': 'Choose Post',
+            # 'post': 'Choose Post',
             'name': 'Name',
             'email': 'Email Address',
             'content': 'Add text here',
         }
 
-        self.fields['name'].widget.attrs['autofocus'] = True  # cursore start here
+        # self.fields['name'].widget.attrs['autofocus'] = True  # cursore start here
         for field in self.fields:
             if self.fields[field].required:
                 placeholder = f'{placeholders[field]} *'
@@ -60,5 +60,5 @@ class BlogPostCommentForm(forms.ModelForm):
             self.fields[field].widget.attrs['class'] = 'stripe-style-input'
             self.fields[field].label = False
 
-        for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'border-black rounded-0'
+        # for field_name, field in self.fields.items():
+        #     field.widget.attrs['class'] = 'border-black rounded-0'

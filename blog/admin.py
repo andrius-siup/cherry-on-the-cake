@@ -23,6 +23,14 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class BlogPostCommentAdmin(admin.ModelAdmin):
+    fields = (
+        'post', 'name', 'email', 'content', 'date',
+    )
+
+    readonly_fields = (
+        'name', 'email', 'content', 'date',
+    )
+
     list_display = (
         'post',
         'name',
