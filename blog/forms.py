@@ -43,6 +43,22 @@ class BlogPostCommentForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        placeholders = {
+            'post': 'Choose Post',
+            'name': 'Name',
+            'email': 'Email Address',
+            'content': 'Add text here',
+        }
+
+        self.fields['name'].widget.attrs['autofocus'] = True  # cursore start here
+        for field in self.fields:
+            if self.fields[field].required:
+                placeholder = f'{placeholders[field]} *'
+            else:
+                placeholder = placeholders[field]
+            self.fields[field].widget.attrs['placeholder'] = placeholder
+            self.fields[field].widget.attrs['class'] = 'stripe-style-input'
+            self.fields[field].label = False
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
