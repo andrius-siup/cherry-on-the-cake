@@ -154,7 +154,10 @@ def add_post_comment(request, post_id):
     if request.method == 'POST':
         form = BlogPostCommentForm(request.POST, request.FILES)
         if form.is_valid():
-            post = form.save()
+            comment = form.save(commit=False)  # save comment form, without commit in DB
+            post = get_object_or_404(Post, pk=post_id)  # got post from DB using post_id
+            comment.post = post  # attached the post to the comment
+            comment.save()
             messages.success(request, 'Successfully added comment!')
             return redirect(reverse('blog_post_detail', args=[post_id]))
         else:
