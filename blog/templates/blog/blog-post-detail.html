@@ -64,16 +64,20 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 mt-5">
-                {% for comment in comments %}
-                    <p class="text-black">{{ comment.name }}</p>
-                    <p class="text-muted small">{{ comment.email }}</p>
-                    <p>{{ comment.content }}</p>
-                    <p class="text-muted small">{{ comment.date }}</p>
-                    {% if request.user.is_superuser %}
-                        <a class="text-danger" href="{% url 'delete_post_comment' comment.id %}">Delete</a>
-                    {% endif %}
-                    <hr>
-                {% endfor %}
+                {% if comments %}
+                    {% for comment in comments %}
+                        <p class="text-black">{{ comment.name }}</p>
+                        <p class="text-muted small">{{ comment.email }}</p>
+                        <p>{{ comment.content }}</p>
+                        <p class="text-muted small">{{ comment.date }}</p>
+                        {% if request.user.is_superuser %}
+                            <a class="text-danger" href="{% url 'delete_post_comment' comment.id %}">Delete</a>
+                        {% endif %}
+                        <hr>
+                    {% endfor %}
+                {% else %}
+                    <p class="text-muted pl-3">No comments</p>
+                {% endif %}
             </div>
         </div>
         <!-- Add Comment Form -->
