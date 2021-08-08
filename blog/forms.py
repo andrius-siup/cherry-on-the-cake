@@ -22,7 +22,7 @@ class BlogPostCommentForm(forms.ModelForm):
 
     class Meta:
         model = BlogPostComment
-        fields = '__all__'
+        fields = '__all__'  # ('name', 'email', 'content',)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

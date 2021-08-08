@@ -134,6 +134,7 @@ def edit_blog_post(request, post_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_blog_post(request, post_id):
     """ A view to shoe delete a post from the blog """
     if not request.user.is_superuser:
@@ -146,6 +147,7 @@ def delete_blog_post(request, post_id):
     return redirect(reverse('posts'))
 
 
+@login_required
 def add_post_comment(request, post_id):
     """ A view to show add post comment """
 
@@ -168,8 +170,13 @@ def add_post_comment(request, post_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_post_comment(request, comment_id):
     """ A view to delete a comment from the post """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only blog owner can do that')
+        return redirect(reverse('home'))
+
     comment = get_object_or_404(BlogPostComment, pk=comment_id)
     post = comment.post
     comment.delete()
