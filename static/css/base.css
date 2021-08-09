@@ -375,4 +375,10 @@ a.category-badge > span.badge:hover {
         padding: .25rem .5rem !important;
     }
 
+    /* ------------------------------- Blog page */
+    .search-panel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
