@@ -59,6 +59,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'page_title': 'Products',
     }
 
     return render(request, 'products/products.html', context)
@@ -72,12 +73,13 @@ def product_detail(request, product_id):
 
     context = {
         'product': product,
+        'page_title': 'Product Detail',
     }
 
     return render(request, 'products/product_detail.html', context)
 
 
-@login_required
+@login_required  # remove login if using staff_member
 @staff_member_required
 def add_product(request):
     """Add a product to the store"""
@@ -100,6 +102,7 @@ def add_product(request):
     template = 'products/add_product.html'
     context = {
         'form': form,
+        'page_title': 'Add Product',
     }
 
     return render(request, template, context)
@@ -126,6 +129,7 @@ def edit_product(request, product_id):
     context = {
         'form': form,
         'product': product,
+        'page_title': 'Edit Product',
     }
 
     return render(request, template, context)

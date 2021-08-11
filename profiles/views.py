@@ -27,6 +27,7 @@ def profile(request):
     context = {
         'form': form,
         'orders': orders,
+        'page_title': 'My Profile',
         'on_profile_page': True
     }
 
@@ -44,6 +45,7 @@ def order_history(request, order_number):
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
+        'page_title': 'Order History',
         'from_profile': True,
     }
 

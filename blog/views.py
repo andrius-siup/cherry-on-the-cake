@@ -54,6 +54,7 @@ def posts(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'page_title': 'Blog',
     }
 
     return render(request, "blog/blogs.html", context)
@@ -74,6 +75,7 @@ def blog_post_detail(request, post_id):
         'form': form,
         'comments': comments,
         'template': template,
+        'page_title': 'Post Detail',
     }
 
     return render(request, template, context)
@@ -100,6 +102,7 @@ def add_blog_post(request):
     template = 'blog/add_blog_post.html'
     context = {
         'form': form,
+        'page_title': 'Add Post',
     }
 
     return render(request, template, context)
@@ -129,6 +132,7 @@ def edit_blog_post(request, post_id):
     context = {
         'form': form,
         'post': post,
+        'page_title': 'Edit Post',
     }
 
     return render(request, template, context)
