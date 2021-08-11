@@ -88,6 +88,7 @@ h2.logo-font strong {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    margin-bottom: 90px;
 }
 
 .btt-link,
@@ -284,6 +285,32 @@ a.category-badge > span.badge:hover {
 
 .post-detail-container {
     margin-top: 160px;
+}
+
+/* -------------------------------- Footer */
+
+footer {
+    background-color: #f1f2f4;
+    height: 80px;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+
+footer ul {
+    display: inline-flex;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-media ul li a {
+    color: black;
 }
 
 /* -------------------------------- Media Queries */
