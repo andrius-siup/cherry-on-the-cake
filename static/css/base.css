@@ -413,3 +413,12 @@ footer ul {
     }
 
 }
+
+/* ------------------------------- for small devices: width is 320px wide or less */
+@media (max-width: 320px) {
+
+    /* ------------------------------- Checkout */
+    .order-confirmation-wrapper {
+        font-size: .9rem;
+    }
+}
