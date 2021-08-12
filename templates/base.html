@@ -45,7 +45,9 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>X Cherry | {{ page_title }}</title>
+    <title>X Cherry | {% block extra_title %}{% block head_title %}{% endblock %}
+        {% endblock %}</title>
+    <!-- <title>X Cherry | {{ page_title }}</title>  -->
 </head>
 
 <body>
