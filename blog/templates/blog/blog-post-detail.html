@@ -112,7 +112,7 @@
                 <form method="POST" action="{% url 'add_post_comment' post.id %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
-                    <div class="text-right">
+                    <div class="text-right add-comment-btn">
                         <!-- <a href="" class="btn btn-outline-black rounded-0">Cancel</a> -->
                         <button class="btn btn-black rounded-0" type="submit">Add Comment</button>
                     </div>

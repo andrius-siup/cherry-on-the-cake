@@ -417,8 +417,68 @@ footer ul {
 /* ------------------------------- for small devices: width is 320px wide or less */
 @media (max-width: 320px) {
 
+    /* ------------------------------- Home */
+    .shop-now-button {
+        min-width: 200px;
+    }
+
     /* ------------------------------- Checkout */
     .order-confirmation-wrapper {
         font-size: .9rem;
     }
+
+    /* ------------------------------- My Profile page button */
+    .btn.btn-black.rounded-0.text-uppercase.float-right {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* ------------------------------- Checkout Success page button */
+    .col-12.col-lg-7.text-right {
+        margin-top: 15px;
+    }
+
+    .btn.btn-black.rounded-0.my-2 {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* ------------------------------- Add comment button */
+    .add-comment-btn
+    button.btn.btn-black.rounded-0 {
+        width: 100%;
+    }
+
+    /* ------------------------------- Add Product page */
+    .add-product-form 
+    span.btn.btn-black.rounded-0.btn-file {
+        width: 100%;
+    }
+
+    .add-product-form
+    a.btn.btn-outline-black.rounded-0 {
+        width: 49%;
+    }
+
+    .add-product-form
+    button.btn.btn-black.rounded-0 {
+        width: 49%;
+    }
+
+    /* ------------------------------- Edit Product page */
+    .edit-product-form 
+    span.btn.btn-black.rounded-0.btn-file {
+        width: 100%;
+    }
+
+    .edit-product-form
+    a.btn.btn-outline-black.rounded-0 {
+        width: 49%;
+    }
+
+    .edit-product-form
+    button.btn.btn-black.rounded-0 {
+        width: 49%;
+    }
+
 }
