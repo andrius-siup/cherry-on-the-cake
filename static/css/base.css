@@ -407,6 +407,9 @@ footer ul {
     }
 
     /* ------------------------------- Blog page */
+    .blog-container{
+        margin-top: 110px;
+    }
     .search-panel {
         padding-left: 0;
         padding-right: 0;

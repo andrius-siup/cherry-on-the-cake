@@ -13,17 +13,18 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container blog-container">
+<div class="container blog-container mb-2">
     <div class="row">
-        <div class="col text-center mt-3">
-            <h2 class="logo-font">X Cherry Blog</h2>
+        <div class="col text-center">
+            <hr>
+            <h2 class="logo-font mb-4">X Cherry Blog</h2>
             <!-- for loop and content doesn't need to you it's good if will be show multiple categories -->
             <!-- {% for c in current_categories %}
                 <a href="{% url 'posts' %}?category={{ c.name }}" class="category-badge text-decoration-none">
                     <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-black">{{ c.friendly_name }}</span>
                 </a>
             {% endfor %} -->
-            <hr class="w-50 mb-1">
+            <hr>
         </div>
     </div>
     <!-- search panel -->
