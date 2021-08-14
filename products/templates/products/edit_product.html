@@ -15,7 +15,7 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                 <hr>
                     <h2 class="logo-font mb-4">Product Management</h2>
                     <h5 class="text-muted">Edit a Product</h5>
@@ -24,7 +24,7 @@
         </div>
         <!-- Product information that is in the bag-->
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                 <form action="{% url 'edit_product' product.id %}" class="form edit-product-form mb-2" method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
