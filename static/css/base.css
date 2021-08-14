@@ -427,6 +427,11 @@ footer ul {
         font-size: .9rem;
     }
 
+    .submit-button.text-right.mt-5.mb-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     /* ------------------------------- My Profile page button */
     .btn.btn-black.rounded-0.text-uppercase.float-right {
         width: 100%;
@@ -479,6 +484,11 @@ footer ul {
     .edit-product-form
     button.btn.btn-black.rounded-0 {
         width: 49%;
+    }
+
+    /* ------------------------------- Product Detail */
+    .product-detail-btn {
+        text-align: center;
     }
 
 }
