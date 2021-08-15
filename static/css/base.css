@@ -291,7 +291,7 @@ div.allauth-form-inner-content {
 /* -------------------------------- Blog post detail */
 
 .post-detail-container {
-    margin-top: 160px;
+    margin-top: 120px;
 }
 
   /* ------------------------------- Shopping bag */
@@ -388,6 +388,15 @@ footer ul {
     div.col-12.col-md-8.offset-md-2.col-lg-6.offset-lg-3 {
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+
+    /* -------------------------------- Blog post detail */
+    .post-detail-container {
+        margin-top: 160px;
+    }
+
+    .post-detail-header h2 {
+        margin-top: 30px;
     }
 
     /* -------------------------------- Product */
