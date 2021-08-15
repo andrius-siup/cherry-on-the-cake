@@ -193,6 +193,13 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+/* ------------------------------- All authority forms */
+.header-container
+div.allauth-form-inner-content {
+    /* margin-top: 50px; */
+    min-height: 90vh;
+}
+
 /* -------------------------------- Allauth form formating */
 
 .allauth-form-inner-content p {
@@ -285,6 +292,11 @@ a.category-badge > span.badge:hover {
 
 .post-detail-container {
     margin-top: 160px;
+}
+
+  /* ------------------------------- Shopping bag */
+  .shopping-bag-container {
+    min-height: 80vh;
 }
 
 /* -------------------------------- Footer */
@@ -415,6 +427,7 @@ footer ul {
     body {
         height: calc(100vh - 116px);
     }
+
     /* ------------------------------- Home page */
     .display-4.logo-font.text-black {
         font-size: 2rem;
