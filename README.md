@@ -86,11 +86,51 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 * As a user I want to be able to access the My Profile page with delivery information, also can be an editable form if something changes with my address.
 * As a user, I expect to be able to see my order history on my profile page.
 
+## Site owner/admin user stories
 
+* As an admin of the website, I want to have access to the add, edit or delete products and blog posts also access to delete user's comments.
+* As an admin of the website, in the My Account icon, I want to see the Product Management link, which will be redirected into Add product page.
+* As an admin of the website, on the Add Product page, I would like to see a user-friendly input form, that I can manually add new products.
+* As an admin of the website, in the Add Product page form, I want to see the form fields:
+    * Category
+    * SKU
+    * Name
+    * Description
+    * Have sizes
+    * Price
+    * Rating
+    * Image URL
+    * Add local image
+    * buttons:
+        * Add Product - save the new data and redirect into the Product Detail page. To look how everything looks from the user's side.
+        * Cancel - data not saved and simple back into the Products page.
 
+* As an admin of the website, in the Products page and Product detail page, I want to see the edit and delete product links.
+* As an admin of the website, on the Edit Product page, I want to see the form with the all details of the product that I want to edit.
+* As an admin of the website, on the Edit Product page, I want to simply remove old information and add new text or replace the image.
+* As an admin of the website, on the Edit Product page, I want to see two buttons:
+    * Update - save new information and redirected to the Product Detail page, to see how looks from the customer side.
+    * Cancel - leave the old data(same data) and redirected to the Products page.
+* As an admin of the website, in the Products page and Product Detail page, I want to see the Delete link, for a simple removed product with all data from the site.
 
+* As an admin of the website, on the Blog page, near the search bar button, I want to has the Add Post button, to add new posts.
+* As an admin of the website, on the Add Post page, I want to see a simple input form with fields:
+    * Choose Category
+    * Post Title
+    * Input text
+    * Created by
+    * Two buttons:
+        * Add Post - Save all information and redirected to the Post Detail page.
+        * Cancel - simply redirected to the Blog page.
 
-
+* As an admin of the website, in the Blog page and in the Post Detail page, I want to see the edit and delete links:
+    * Edit link - which will be redirected into the Edit Post page, with all post details saved into form.
+        * In the Edit Post form I want to simply edit text or change the category.
+        * Also I want to see two buttons:
+            * Update - save the new data and redirected to the Post detail page.
+            * Cancel - leave the old data(same data) and redirected to the Blog page.
+    * Delete link - simple removed post with all data from the site.
+* As an admin of the website, in the Post Detail page, in the single comment, I want to see the delete link, which simply removed the comment from the site.
 
 ## The secret key was accidentally pushed to the repo. 
 * Removed the secret key from settings.py
