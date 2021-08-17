@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome andrius-siup,
 
@@ -131,6 +131,49 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
       * Cancel - leave the old data(same data) and redirected to the Blog page.
     * Delete link - simple removed post with all data from the site.
 * As an admin of the website, in the Post Detail page, in the single comment, I want to see the delete link, which simply removed the comment from the site.
+
+## Non-register user stories
+
+* As a non-register user, I expect that the site logo always brings me to the home page.
+* As a non-register user, I expect to be able to Sign Up for this website.
+* As a non-register user, I want to easily navigate through all the pages.
+* As a non-register user, I want to know if there is a free delivery from this site.
+* As a non-register user, on the Products page, I want to find products by category, subcategories.
+* As a non-register user, on the Products page, I want to sort products by price, rating, name, and category.
+* As a non-register user, on the Products page, I want to see the Back to Top button if there is a lot of products.
+* As a non-register user, in the Products page I want to be able to access to the Product Detail page, to see full product informationproduct.
+
+* As a non-register user, on the Product Detail page I want to be able to see the product full information:
+  * Product Name
+  * Price
+  * Category (link to this category)
+  * Description
+  * Rating
+  * Choose Size (if has size - xs, s, m, l, xl)
+  * Quantity (buy more than one - 1-99)
+  * Buttons :
+    * Back to Products - simple redirecting the non-register user into the Products page.
+    * Add to Bag - add the product into the shopping bag, display the item price into the bag icon(into the navigation bar).
+* As a non-register user, on the Product Detail page, I want to see the message success when I added the product into the shopping bag.
+* As a non-register user, in the Product Detail page I expect to be able to see success messages with all details of the product like name, how many items are in the bag, items image, total, info line with getting free delivery, and button go to checkout.
+
+* As a non-register user, on the Shopping bag page, I expect to be able to do changes like add more and remove the number of products.
+* As a non-register user, on the Shopping bag page I expect to be able to see the cost of the products: like bag total, delivery cost, and grand total. Also, the info text with calculations to get free delivery.
+* As a non-register user, on the Shopping bag page I expect to be able to see buttons like:
+  * Back to Products - redirecting non-register user into the Products page.
+  * Secure Checkout - redirecting the non-register user to the Sign In page. The non-register user can't buy items without sign in to the website.
+
+* As a non-register user, I would like to has access to the site Blog, to read the useful posts.
+* As a non-register user, on the Blog page, I want to see the latest post at, top of the Blog.
+* As a non-register user, on the Blog page, I want to see all posts with a short text, to read a little bit, and if is interest go to the post detail page.
+* As a non-register user, on the Blog page, I want to see the search bar to quickly and easily find the post.
+* As a non-register user, on the Blog page, I want to sort the posts by name, category, date.
+* As a non-register user, on the Blog page, I want to find the posts by category label below the post text. That is to see all posts in this category.
+* As a non-register user, on the Blog page, I want to see the Back to Top button, for quick back to the top of the page.
+* As a non-register user, on the Blog page I want to see the button View More:
+  * View More - button the non-registered user simply redirecting into the Sign In page, as only registered user has access to the Post Detail page.
+
+
 
 ## The secret key was accidentally pushed to the repo
 
