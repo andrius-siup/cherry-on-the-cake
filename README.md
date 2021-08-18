@@ -173,6 +173,145 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 * As a non-register user, on the Blog page I want to see the button View More:
   * View More - button the non-registered user simply redirecting into the Sign In page, as only registered user has access to the Post Detail page.
 
+## Features
+
+* All pages: Templates (base.html, mobile-top-header.html, main-nav.html)
+  * Mobile version - nav bar:
+    * Click the Hamburger button - drop down the page links:
+      * Click the Home link - redirecting to the home page.
+      * Clicking the All Products link - the drop down the 4 links:
+        * By Price - show sorted all products for descending order.
+        * By Rating - show sorted all products by acsending rating order.
+        * By Category - show sorted all product by ascending category order.
+        * All Products - show the all products.
+      * Clicking the Clothing link - the drop down the 4 links:
+        * Compressions - show all compressions cloths from the store.
+        * T-Shirts - show all T-Shirts from the store.
+        * Shorts - show all shorts from the store.
+        * All Clothing - shows all clothing categories in one page.
+      * Clicking the Boxing Gear link - the drop down the 4 category links:
+        * Gloves - shows all boxing gloves from the store.
+        * Head Guard - shows all head guards from the store.
+        * Protective Gear - shows Mouthguard, Groin Guard, Handwraps, Chest Guard Womens from the store.
+        * All Boxing Gear - shows all the products from three categories.
+      * Clicking the Training Gear link - the drop down the 4 category links:
+        * Skipping Ropes - shows the skipping rope products.
+        * Boxing Bag - shows the boxing bag categories products.
+        * Speed Bag Platform - shows the speed bag platform category products.
+        * All Training Gear - shows the all 3 categories products.
+      * Clicking the Blog link - redirecting into the site blog page.
+    * Clicking Search bar - input a word and  search engine look at the products section.
+    * Click the My Account icon:
+      * Non-register user - drop down the links for Register and Login pages.
+      * Logged in user - drop down the My Profile and Logout pages.
+      * Logged in admin - drop down the Product Management, My Profile, Logout pages.
+    * Click the Shopping Bag icon - redirectting into Shopping bag page.
+    * Click the Search bar icon - input a word and  search engine look at the products section.
+    * Click the My Account icon:
+      * Non-register user - drop down the links for Register and Login links.
+      * Logged in user - drop down the My Profile and Logout links.
+      * Logged in admin - drop down the Product Management, My Profile, Logout links.
+    * Click the Shopping Bag icon - redirectting into Shopping bag page.
+  * Desktop version - nav bar:
+    * Click the Logo - redirecting to the home page.
+    * Clicking Search bar - input a word and  search engine look at the products section.
+    * Click the My Account icon:
+      * Non-register user - drop down the links for Register and Login pages.
+      * Logged in user - drop down the My Profile and Logout pages.
+      * Logged in admin - drop down the Product Management, My Profile, Logout pages.
+    * Click the Shopping Bag icon - redirectting into Shopping bag page.
+    * Clicking the All Products link - the drop down the 4 links:
+      * By Price - show sorted all products for descending order.
+      * By Rating - show sorted all products by acsending rating order.
+      * By Category - show sorted all product by ascending category order.
+      * All Products - show the all products.
+    * Clicking the Clothing link - the drop down the 4 links:
+      * Compressions - show all compressions cloths from the store.
+      * T-Shirts - show all T-Shirts from the store.
+      * Shorts - show all shorts from the store.
+      * All Clothing - shows all clothing categories in one page.
+    * Clicking the Boxing Gear link - the drop down the 4 category links:
+      * Gloves - shows all boxing gloves from the store.
+      * Head Guard - shows all head guards from the store.
+      * Protective Gear - shows Mouthguard, Groin Guard, Handwraps, Chest Guard Womens from the store.
+      * All Boxing Gear - shows all the products from three categories.
+    * Clicking the Training Gear link - the drop down the 4 category links:
+      * Skipping Ropes - shows the skipping rope products.
+      * Boxing Bag - shows the boxing bag categories products.
+      * Speed Bag Platform - shows the speed bag platform category products.
+      * All Training Gear - shows the all 3 categories products.
+    * Clicking the Blog link - redirecting into the site blog page.
+* Home app features :
+  * Hero image on loading page.
+  * Shop Now button. Mouse over change the button background color. Redirecting to the products page.
+* Products app features:
+  * products.html features are to store all products in the single page.The single product is wrapped in the card.
+    * Product counter - shows how many products are in the store.
+    * The card shows the product image, name, price, category(link to this category products) and raiting. The website admin has access to edit and delete links beside the rating.
+    * The drop down sort bar - sorting products by price, rating, name or category.
+    * Back to top link - bring you at the top of the page.
+    * Break Line - separate the products by the divece screen size.
+  * product_details.html features are single product page. There is display all information about the product.
+    * Product image - biger size image.
+    * Product name
+    * Produc price
+    * Product category - link that redirected into products page by this category.
+    * Product description - the full information about the product.
+    * Size - if product has more than one size there is a drop down size bar - the user can choose the size.
+    * Quantity - how many items user want to buy. Always shows 1, but user can choose from 1-99. There are plus(+) and minus(-) simbols buttons, or the user can simply input the number.
+    * Keep Shopping button - redirecting the user into the products page.
+    * Add to Bag button - adding the item into shopping bag. The shopping bag icon in the nav bar display the price and pop-up Success message, that displaying the all information: product name, size, quantity, total(without delivery), total how much to spend to get free delivery, and button to chekout page.
+  * add_product.html features are input form to add product to the store. Only admin has access to this page. The form fields are:
+    * Category - drop down bar with all categories that added admin from the django administration page.
+    * SKU - it is product detail short code, the admin can input the max character 254 lenght.
+    * Name - product name, required and max character lenght are 254, and has attribute required.
+    * Description - input text, not specified max lenght, the admin should enough for product description, has attribute required.
+    * Has sizes - drop down bar with 3 choises, yes, no, uknown. The choise yes will display the drop down bar into product_detail page.
+    * Price - input max 6 numbers with 2 decimal places, has attribute required.
+    * Rating - has input max one number and max 2 decilam places.
+    * Image url - has input max 1024 character long url. Not required, than used default image.
+    * Select Image button - add image from your computer. Not required, than used default image.
+    * Cancel button - redirecting the user into the products page.
+    * Add Product button - save the all input data and redirecting into the product_detail page. All form fields must be filed as required, otherwise the error message will pop-up.
+  * edit_product.html features are to edit the product_detail page. There are same form like in add_product page and all requirements are same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only admin has access to this page.
+  * Delete product - there are delete product link into products and the product_detail pages beside the product rating. Simply removing all product data from the website. Only Admin has access to do it.
+* Blog app features are to store the website post. There only admin can add new, edit or delete posts. All posts will be displayed by added date order. Latest added will be first on the page.
+  * blogs.html features are:
+    * Search bar - searched the input word into the post title or post content. Founed posts shows by latest first, also displaying how many posts find.
+    * Sorting bar - sorting posts by name, category and date. You can used search bar for find the post and sort than by date. To reset your searches click the Back to Blog link.
+    * Add Post button - only admin has access to this page, there is a hide for others users, but if the user goes to this page by URL, than he will redirected into 404 error page.
+    * The single post will displays into card: post title, created date, short content about 50 word, post category(link to this category posts) and button to post detail page.
+    * Back to Top button - sticked in the right bottom page corner, simply bring the user top of the page.
+  * blog_post_detail.html features are to see the single post with all content. Only registered user has access to this page. There is also a link to edit and delete the post(only admin has access), post category link, button to back to Blog home page. Below the post detail content displaying the users comments. At the bottom of the page, there are the Add Comment form with button. Added new comment will be displayed at the top in comment section. Only admin has access to delete comments. Every single comment has delete link.
+  * add_blog_post.html features are to add a post into the blog. Only admin has access to do this. There is a form:
+    * Category - drop down bar with categories list, that was added from the django administration page, has attribute required.
+    * Post Title - input field with max 254 character lenght, has attribute required.
+    * Content - input text, not specified max lenght, the admin should enough for post content, has attribute required.
+    * Created by - input text, with max 25 character lenght, has attribute required.
+    * Cancel button - not save the input data and redirecting into the blogs page.
+    * Add Post button - save all input data and redirecting into the post_detail page.
+  * edit_blog_post.html features are to edit single the blog post. Only admin has access to this page. There is a form same as like to add post form, just with saved all data that admin can edit or replace. There is two buttons:
+    * Cancel button - not save the input data, leave the old data and redirecting into the blogs page.
+    * Update Post button - save the inputed data and redirecting into the post_detail page.
+  * delete post features are to delete post with all data from the website. Only admin has access to do this.
+* Profiles app features are to keep the user delivery information and order history.
+  * profile.html features are the page divided into 2 parts:
+    * Default Delivery information - a form with saved user details after the first buyed product. The all form fields are simply editable if user needed:
+      * Phone Number - the input field with max 20 character long.
+      * Street Address 1 - the input field with the max 80 character length.
+      * Street Address 2 - the input field with the max 80 character length.
+      * Town or City -  the input field with the max 40 character length
+      * County, State - the input field with the max 80 character length
+      * Postal Code -  the input field with the max 20 character length
+      * Country - drop down bar with list of countries.
+      * Update information - saved the delivery form data and keep the input text into form.
+    * Order History - shortr order template to store the all user orders:
+      * Order Number - displaying the long unique order number(link) that will redirecting the user into the order history page with the single order information.
+      * Date - displaying the order created date.
+      * Items - displaying the product items name.
+      * Order total - displaying grand total of the order.
+
+
 
 
 ## The secret key was accidentally pushed to the repo
