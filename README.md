@@ -34,7 +34,52 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
-## User Stories
+## Project Summary
+
+This is a X Cherry ecommerce website, which I will created for my final milestone project. In this website the user will be find the products with assosiated with the boxing sport. There are also a Blog section, where the admin has grand to add posts assosiated with healthy life and combat sports. The registerd users has access to view the single post and add comments. I hope this website will be create a boxing sport community, where the advance boxers can share the tips with beginers. The admin also has access to add, edit or delete products from the store, remove users comments and lots mor. The website has responsive design, from small phone devices till the large screens. The website was created for educational purposes.
+
+# Goals
+
+## Visitors Goals
+
+The targert audience for X Cherry store are:
+
+* Beginer boxers who will looking to purchase a new product for they boxing training class.
+* Advance boxers who will looking to update the boxing gear or cloths.
+* Boxing clubs who will looking to purchase training gear or boxing gear equipment.
+* The all Boxing sport fans for be active in the Blog.
+
+## User Goals
+
+* Easaly navigate trough the website.
+* Securely sign up, sign in and login into the website.
+* Restore the password.
+* Simply buy the product, with calculations for free delivery.
+* Saved the delivery information, for future shoppings.
+* Have the Order history.
+* Used search bar for find the products.
+* Sort the products.
+* Read the posts in the website Blog.
+* Leave the comments for a single post.
+
+## Business Goals
+
+* Sell the products.
+* Attract new customers.
+* Keep the existing shoppers, sell the good quality products for the competitive price.
+* Provide all the customers information they need online, so that they do not need to call or email.
+* Have online payment system and keep secure.
+* Have instant email notification of purchased products with customer detais.
+
+## X Cherry Goal
+
+* Earn income on each sold product.
+* Be a leader in sports stores.
+* Keep the existing customers and always find new ones.
+* Always sold good quality products.
+* Customer always the right.
+
+# User Stories
 
 * As a user, I expect that the site logo always brings me to the home page.
 * As a user, I expect to be able to sign up to this website and get the email confirmation.
