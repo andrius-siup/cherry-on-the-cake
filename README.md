@@ -218,7 +218,7 @@ The targert audience for X Cherry store are:
 * As a non-register user, on the Blog page I want to see the button View More:
   * View More - button the non-registered user simply redirecting into the Sign In page, as only registered user has access to the Post Detail page.
 
-## Features
+# Features
 
 * All pages: Templates (base.html, mobile-top-header.html, main-nav.html)
   * Mobile version - nav bar:
@@ -401,6 +401,60 @@ The targert audience for X Cherry store are:
     * Order Total - products cost without delivery price.
     * Delivery - delivery cost if bag total less than 50, added delivery cost 10% of the Bag Total.
     * Grand Total - are the sum of the Bag Total and Delivery cost.
+
+## Future Features ideas
+
+* In the Product detail page will be add more products images. That the user can look at the item from all angles.
+* Add Nutrition category in the page. That the user could purchased food supplement.
+* Add special offer discount for some period on some products.
+* Create social media login to this website.
+
+# Technologies Used
+
+* Gitpod - used to built all project.
+* GitHub - used to hosting the website.
+* Heroku - used to deploy the website.
+* Django - python web framework for rapid development and design.
+* Stripe - payment platform to validate and accept credit card payments securely.
+* AWS S3 Bucket - store static files and images entered into the databses.
+* Django Crispy Forms - style django forms.
+* Django Storages - a collection of custome storage backends with django to work with boto3 and AWS S3.
+* Django Allauth - 
+* Gunicorn - WSGI HTTP Server for UNIX to aid in deployment of the Django project to Heroku.
+* Pillow - python imaging library to aid in processing image files to store in database.
+* Psycopg2 - PostgreSQL database adapter for python.
+* pip3 - installation of tools needed for this project.
+* balsamiq - used to create wireframes.
+* Chrome DevTools - used all the time when created the website.
+* grammarly - used to check typo mistakes.
+* W3C Markup Validation Service - used to validate HTML code.
+* CSS Validation Service - used to validate css code.
+* JSHint - used to validate the jQuery code.
+* PEP8 online - used to validate the Python code.
+* Lighthouse - used to improve the quality of the webpage.
+
+## Databases
+
+* PostgreSQL - for production database, provided by Heroku.
+* SQLite3 - development database, provided by Django.
+
+## Libraries
+
+* jQuery - used to make the website interactive.
+* Bootstrap - used to create responsive design, grid system, buttons, navbar, dropdown, footer, toast, cards, forms.
+* FontAwesome - provide icons, to make live website.
+* Google Fonts - styled the website fonts.
+
+## Languages
+
+* HTML - used for creating the website.
+* CSS - used for styling the website.
+* Python3 - for the backend development.
+
+
+
+
+
 
   
 
