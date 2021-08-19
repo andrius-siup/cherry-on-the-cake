@@ -244,6 +244,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 * Home app features :
   * Hero image on loading page.
   * Shop Now button. Mouse over change the button background color. Redirecting to the products page.
+
 * Products app features:
   * products.html features are to store all products in the single page.The single product is wrapped in the card.
     * Product counter - shows how many products are in the store.
@@ -275,6 +276,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
     * Add Product button - save the all input data and redirecting into the product_detail page. All form fields must be filed as required, otherwise the error message will pop-up.
   * edit_product.html features are to edit the product_detail page. There are same form like in add_product page and all requirements are same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only admin has access to this page.
   * Delete product - there are delete product link into products and the product_detail pages beside the product rating. Simply removing all product data from the website. Only Admin has access to do it.
+
 * Blog app features are to store the website post. There only admin can add new, edit or delete posts. All posts will be displayed by added date order. Latest added will be first on the page.
   * blogs.html features are:
     * Search bar - searched the input word into the post title or post content. Founed posts shows by latest first, also displaying how many posts find.
@@ -294,6 +296,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
     * Cancel button - not save the input data, leave the old data and redirecting into the blogs page.
     * Update Post button - save the inputed data and redirecting into the post_detail page.
   * delete post features are to delete post with all data from the website. Only admin has access to do this.
+
 * Profiles app features are to keep the user delivery information and order history.
   * profile.html features are the page divided into 2 parts:
     * Default Delivery information - a form with saved user details after the first buyed product. The all form fields are simply editable if user needed:
@@ -310,6 +313,51 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
       * Date - displaying the order created date.
       * Items - displaying the product items name.
       * Order total - displaying grand total of the order.
+
+* Bag app features are the keep all user products before to buy it. There are displaying:
+  * Products image
+  * Products name
+  * SKU
+  * Size(if has size)
+  * Price
+  * Quantity - there are input bar with plus and minus buttons. The user can use both methods to change the products quantity from 1-99.
+    * Update link - the user change the products quantity, click the update link and automaticly update all calculations(subtotal, bag total, delivery cost, grand total). 
+    * Remove link - the simply remove product from the shopping bag page, also update all calculations(subtotal, bag total, delivery cost, grand total).
+  * Bag Total
+    * Bag Total - product price without delivery cost.
+    * Delivery - delivery cost if bag total less than 50, added delivery cost 10% of the Bag Total.
+    * Grand Total - are the sum of the Bag Total and Delivery cost.
+    * Free delivery message - there are free delivery message that inform the user how much left to spend to get free delivery.
+  * Keep Shopping button - redirecting the user into the products page and save all products into the shopping bag page. The user can simply back into shopping bag clicked the bag icon in the nav bar.
+  * Secure Checkout button - redirecting the user into the checkout page.
+
+* Checkout app features are a form and stripe payment details. The page divided into two sections, user deliver form and order summary. There is also input payment field and buttons to complete the order. Also generate unique order number max 32 characters long, that will be display into order history. A confirmation email s sent to the user.
+  * Form
+    * Full Name - the input field with max 50 characters long.
+    * Email Address - the input field with max 254 characters long.
+    * Phone Number - the input field with max 20 character long.
+    * Street Address 1 - the input field with the max 80 character length.
+    * Street Address 2 - the input field with the max 80 character length.
+    * Town or City -  the input field with the max 40 character length
+    * County, State - the input field with the max 80 character length
+    * Postal Code -  the input field with the max 20 character length
+    * Country - drop down bar with list of countries.
+    * Tick box - for save user form details , for future shoppings.
+    * Payment - input fields that required Card long number, month/year(mm/yy), Card Certification Code(CVC) and ZIP(Post Code).
+    * Adjust Bag button - redirecting the user back to shopping bag page, save all products in the bag.
+    * Complete Order button - proceed the order(Success message pop-up, email confirmation send) and redirecting the user into the Order History page. 
+    * The informative small text bellow the buttons with grand totals calculation.
+  * Order Summary(Displaying number of items):
+    * Displaying the Products image
+    * Displaying the Products name
+    * Displaying the Size(if has size)
+    * Displaying the Quantity
+    * Displaying the Subtotal - single item totals.
+    * Order Total - products cost without delivery price.
+    * Delivery - delivery cost if bag total less than 50, added delivery cost 10% of the Bag Total.
+    * Grand Total - are the sum of the Bag Total and Delivery cost.
+
+  
 
 
 
