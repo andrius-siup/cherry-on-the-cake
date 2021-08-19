@@ -451,6 +451,86 @@ The targert audience for X Cherry store are:
 * CSS - used for styling the website.
 * Python3 - for the backend development.
 
+# Deployment
+
+The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
+To access to my page please follow these steps:
+
+## Download
+
+* Navigate to my repository https://github.com/andrius-siup/cherry-on-the-cake.git .
+* Click the **Code** button.
+* Click the **Download Zip**.
+* Extract where you want to keep all files.
+
+## Clone Repository
+
+* GitHub navigate to **andrius-siup/cherry-on-the-cake**.
+* Click the **Code** button.
+* To clone with **HTTPS** copy the URL in the box https://github.com/andrius-siup/cherry-on-the-cake.git
+* Open your Git Bash.
+* Changed the directory to the location you want to clone to be made.
+* Type git clone than paste the copied URL  `git clone https://github.com/andrius-siup/cherry-on-the-cake.git` .
+* Enter and your local clone will be created.
+
+## Creating an Environment File 
+
+Install Requirements.txt file, in your terminal type `pip3 install -r requirements.txt` . Next you will need to create **env.py** file for storing sensitive data,
+type `touch env.py` in terminal. This file should never be pushed to GitHub, so type `touch .gitignore` to be able to ignore it. Than open the **.gitignore** file and lets
+ignore your **env.py** file typed:
+
+```bash
+ env.py 
+__pycache__/
+```
+
+save and close it.
+
+In the env.py file we need to hide several bits of data. Open env.py file and type:
+
+```bash
+import os
+
+os.environ.setdefault("SECRET_KEY", "********")
+os.environ.setdefault("STRIPE_PUBLIC_KEY", "********")
+os.environ.setdefault("STRIPE_SECRET_KEY", "********")
+os.environ.setdefault("STRIPE_WH_SECRET", "********")
+```
+
+Replace the secret keys with your own values from your accounts:
+
+* The SECRET_KEY can be generated from the [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) .
+* The STRIPE_SECRET_KEY and the STRIPE_PUBLIC_KEY:
+  * Sign In stripe.com > Developers > API keys > and you will find the keys.
+
+Make sure that your env.py file isn't being tracked, type  `git status` and make sure that you can not see it listed.
+In the settings.py change the DEBUG mode.
+
+```bash
+DEBUG = True 
+```
+
+Set up the local database by running those commands:
+
+```bash
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+Create a superuser for the database, in order to access Django administration page.
+
+```bash
+python3 manage.py createsuperuser
+```
+
+And followed the instructions create admin: input name, email, password and repeat the password.
+
+Start your server by typing:
+
+```bash
+python3 manage.py runserver
+```
+
 
 
 
