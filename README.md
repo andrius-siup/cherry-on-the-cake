@@ -616,8 +616,11 @@ To deploy the app using Heroku, use the following steps:
 | Logout | Clicking on the navigation bar's My Account icon. Clickign the Logout link has been routed to the Logout page. Clicking the Sign Out button, the user will be sign out from the website. | Tested, works as should.| No |
 | Password Reset | Clicking on the navigation bar's My Account icon. Clickign the Login link has been routed to the login page. Below the buttons click the Forgot Password link, the user will be redirecting to the Password Reset page. Enter the email address, the user will be get the email with a link to the Change Password page. Entered new password, the user will be get a message that new password will be added successfully. Than the user can be sign in with new password. | Tested, works as should.| No |
 | My Profile | The have to be login to the website. Clicking on the navigation bar's My Account icon. Clicking on the My Profile link the user will be redirecting into the My Profile page. | Tested, works as should.| No |
+| My Profile > Delivery Form | In My profile the Default delivery information form, the user easy can edit the form. Clicking the Update Information button, the form will be save new data and Success message will be displayed. | Tested, works as should.| No |
+| My Profile > Order History | The Order Number are unique for every single order and user can click on that link and will be redirecting to the Order History page with that order details. | Tested, works as should.| No |
 | Shopping Bag | Clicking on the navigation bar's Bag icon, the user will be redirecting to the Bag page. | Tested, works as should.| No |
-| Search bar | Clicking on the navigation bar's the search bar, the user can enter the word and search engine look at the products data. If word will match the searched word, the products will be count and displayed in the page. | Tested, works as should.| No |
+
+| Search bar | Clicking on the navigation bar's the search bar, the user can enter the word and search engine look at the products data(title or description). If word will match the searched word, the products will be count and displayed in the page. | Tested, works as should.| No |
 | All Products > By Price | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Price link - the user will be redirecting to the Products page and all products will be displayed by price descending order. | Tested, works as should.| No |
 | All Products > By Rating | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Rating link - the user will be redirecting to the Products page and all products will be displayed by ratinig ascending order. | Tested, works as should.| No |
 | All Products > By Category | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Category link - the user will be redirecting to the Products page and all products will be displayed by category alphabet ascending order. | Tested, works as should.| No |
@@ -637,14 +640,45 @@ To deploy the app using Heroku, use the following steps:
 | Products Home | The link will be displaying in the all product pages and redirecting the user to the Product page. | Tested, works as should.| No |
 | Products Counter | Displaying in all product pages and showing the total of products in that page. | Tested, works as should.| No |
 | Sort bar > Price(low to high) | Clicking the sort bar and pick up the Price(low to high) field, the products will be sorted by price descending order on all product pages. | Tested, works as should.| No |
-| Sort bar > Price(high to low) | Clicking the sort bar and pick up the Price(high to low) field, the products will be sorted by price ascending order on all product pages. | Tested, works as should.| No |
-| Sort bar > Rating(low to high) | Clicking the sort bar and pick up the Rating(low to high) field, the products will be sorted by rating descending order on all product pages. | Tested, works as should.| No |
-| Sort bar > Rating(high to low) | Clicking the sort bar and pick up the Rating(high to low) field, the products will be sorted by rating ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Price(high to low) | Clicking the sort bar and pick up the Price(high to low) field, the products will be sorted by price descending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Rating(low to high) | Clicking the sort bar and pick up the Rating(low to high) field, the products will be sorted by rating ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Rating(high to low) | Clicking the sort bar and pick up the Rating(high to low) field, the products will be sorted by rating descending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Name(A-Z) | Clicking the sort bar and pick up the Name(A-Z) field, the products will be sorted by name alphabet ascending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Name(Z-A) | Clicking the sort bar and pick up the Name(Z-A) field, the products will be sorted by name alphabet descending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Category(A-Z) | Clicking the sort bar and pick up the Category(A-Z) field, the products will be sorted by category alphabet ascending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Category(Z-A) | Clicking the sort bar and pick up the Category(Z-A) field, the products will be sorted by category alphabet descending order on all product pages. | Tested, works as should.| No |
 | Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All product pages have this feature. | Tested, works as should.| No |
+| Sub-category > below the single product price | Clicking the tag icon with category name, the user will redirecting to this category products page. | Tested, works as should.| No |
+| Blog | Clicking on the navigation bar's the Blog link, the user have been routed to the blog page.| Tested, works as should.| No |
+| Blog > Search bar | The user can enter the word into the Blog search bar and search engine look at the posts data(title and description). If word will match the searched word, the posts will be count and displayed in the page. | Tested, works as should.| No |
+| Back to Blog | The link will be displaying in the all post pages and redirecting the user to the Blog page. | Tested, works as should.| No |
+| Posts Counter | Displaying in all post pages and showing the total of posts in that page. | Tested, works as should.| No |
+| Blog > Sort bar > Name(A-Z) | Clicking the sort bar and pick up the Name(A-Z) field, the post will be sorted by name, alphabet ascending order on all post categories pages. | Tested, works as should.| No |
+| Blog > Sort bar > Name(Z-A) | Clicking the sort bar and pick up the Name(Z-A) field, the post will be sorted by name, alphabet descending order on all post categories pages. | Tested, works as should.| No |
+| Blog > Sort bar > Category(A-Z) | Clicking the sort bar and pick up the Category(A-Z) field, the posts will be sorted by category, alphabet ascending order on all post pages. | Tested, works as should.| No |
+| Blog > Sort bar > Category(Z-A) | Clicking the sort bar and pick up the Category(Z-A) field, the posts will be sorted by category, alphabet descending order on all post pages. | Tested, works as should.| No |
+| Blog > Sort bar > Date(Oldest-Latest) | Clicking the sort bar and pick up the Date(Oldest-Latest) field, the posts will be sorted by date, ascending order(oldest post will be displayed top of the page) on all post pages. | Tested, works as should.| No |
+| Blog > Sort bar > Date(Latest-Oldest) | Clicking the sort bar and pick up the Date(Latest-Oldest) field, the posts will be sorted by date, descending order(Latest post will be displayed the top of the page) on all post pages. | Tested, works as should.| No |
+| Post Category | Clicking the post category (tag icon with category name, bellow the post), the user will be redirecting to the this category posts. | Tested, works as should.| No |
+| View More | Clicking the View More button, bellow the post in the Blog page, the user will be redirecting to the single Post page. | Tested, works as should.| No |
+| Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All post pages have this feature. | Tested, works as should.| No |
+| Single Post page > Post Category | Clicking the post category (tag icon with category name, bellow the post content), the user will be redirecting to the this category posts. | Tested, works as should.| No |
+| Single Post page > Back to Blog | The link will be  redirecting the user to the Blog page. | Tested, works as should.| No |
+| Single Post page > Add Comment | Fill up the form. Enter the name, email and the text, the user can click on the Add Comment button, and comment will be displayed in the Comments section, bellow the single post. The latest comment will be displayed at the top of the other comments. | Tested, works as should.| No |
+| Single Post page > Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All single post pages have this feature. | Tested, works as should.| No |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## The secret key was accidentally pushed to the repo
