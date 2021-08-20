@@ -1,4 +1,6 @@
- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ms-4
+
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome andrius-siup,
 
@@ -38,9 +40,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 This is a X Cherry ecommerce website, which I will created for my final milestone project. In this website the user will be find the products with assosiated with the boxing sport. There are also a Blog section, where the admin has grand to add posts assosiated with healthy life and combat sports. The registerd users has access to view the single post and add comments. I hope this website will be create a boxing sport community, where the advance boxers can share the tips with beginers. The admin also has access to add, edit or delete products from the store, remove users comments and lots mor. The website has responsive design, from small phone devices till the large screens. The website was created for educational purposes.
 
-# Goals
+## Goals
 
-## Visitors Goals
+### Visitors Goals
 
 The targert audience for X Cherry store are:
 
@@ -49,7 +51,7 @@ The targert audience for X Cherry store are:
 * Boxing clubs who will looking to purchase training gear or boxing gear equipment.
 * The all Boxing sport fans for be active in the Blog.
 
-## User Goals
+### User Goals
 
 * Easaly navigate trough the website.
 * Securely sign up, sign in and login into the website.
@@ -62,7 +64,7 @@ The targert audience for X Cherry store are:
 * Read the posts in the website Blog.
 * Leave the comments for a single post.
 
-## Business Goals
+### Business Goals
 
 * Sell the products.
 * Attract new customers.
@@ -71,7 +73,7 @@ The targert audience for X Cherry store are:
 * Have online payment system and keep secure.
 * Have instant email notification of purchased products with customer detais.
 
-## X Cherry Goal
+### X Cherry Goal
 
 * Earn income on each sold product.
 * Be a leader in sports stores.
@@ -79,7 +81,7 @@ The targert audience for X Cherry store are:
 * Always sold good quality products.
 * Customer always the right.
 
-# User Stories
+## User Stories
 
 * As a user, I expect that the site logo always brings me to the home page.
 * As a user, I expect to be able to sign up to this website and get the email confirmation.
@@ -131,7 +133,7 @@ The targert audience for X Cherry store are:
 * As a user I want to be able to access the My Profile page with delivery information, also can be an editable form if something changes with my address.
 * As a user, I expect to be able to see my order history on my profile page.
 
-## Site owner/admin user stories
+### Site owner/admin user stories
 
 * As an admin of the website, I want to have access to the add, edit or delete products and blog posts also access to delete user's comments.
 * As an admin of the website, in the My Account icon, I want to see the Product Management link, which will be redirected into Add product page.
@@ -177,7 +179,7 @@ The targert audience for X Cherry store are:
     * Delete link - simple removed post with all data from the site.
 * As an admin of the website, in the Post Detail page, in the single comment, I want to see the delete link, which simply removed the comment from the site.
 
-## Non-register user stories
+### Non-register user stories
 
 * As a non-register user, I expect that the site logo always brings me to the home page.
 * As a non-register user, I expect to be able to Sign Up for this website.
@@ -218,7 +220,7 @@ The targert audience for X Cherry store are:
 * As a non-register user, on the Blog page I want to see the button View More:
   * View More - button the non-registered user simply redirecting into the Sign In page, as only registered user has access to the Post Detail page.
 
-# Features
+## Features
 
 * All pages: Templates (base.html, mobile-top-header.html, main-nav.html)
   * Mobile version - nav bar:
@@ -366,7 +368,7 @@ The targert audience for X Cherry store are:
   * Size(if has size)
   * Price
   * Quantity - there are input bar with plus and minus buttons. The user can use both methods to change the products quantity from 1-99.
-    * Update link - the user change the products quantity, click the update link and automaticly update all calculations(subtotal, bag total, delivery cost, grand total). 
+    * Update link - the user change the products quantity, click the update link and automaticly update all calculations(subtotal, bag total, delivery cost, grand total).
     * Remove link - the simply remove product from the shopping bag page, also update all calculations(subtotal, bag total, delivery cost, grand total).
   * Bag Total
     * Bag Total - product price without delivery cost.
@@ -390,7 +392,7 @@ The targert audience for X Cherry store are:
     * Tick box - for save user form details , for future shoppings.
     * Payment - input fields that required Card long number, month/year(mm/yy), Card Certification Code(CVC) and ZIP(Post Code).
     * Adjust Bag button - redirecting the user back to shopping bag page, save all products in the bag.
-    * Complete Order button - proceed the order(Success message pop-up, email confirmation send) and redirecting the user into the Order History page. 
+    * Complete Order button - proceed the order(Success message pop-up, email confirmation send) and redirecting the user into the Order History page.
     * The informative small text bellow the buttons with grand totals calculation.
   * Order Summary(Displaying number of items):
     * Displaying the Products image
@@ -402,14 +404,14 @@ The targert audience for X Cherry store are:
     * Delivery - delivery cost if bag total less than 50, added delivery cost 10% of the Bag Total.
     * Grand Total - are the sum of the Bag Total and Delivery cost.
 
-## Future Features ideas
+### Future Features ideas
 
 * In the Product detail page will be add more products images. That the user can look at the item from all angles.
 * Add Nutrition category in the page. That the user could purchased food supplement.
 * Add special offer discount for some period on some products.
 * Create social media login to this website.
 
-# Technologies Used
+## Technologies Used
 
 * Gitpod - used to built all project.
 * GitHub - used to hosting the website.
@@ -419,7 +421,7 @@ The targert audience for X Cherry store are:
 * AWS S3 Bucket - store static files and images entered into the databses.
 * Django Crispy Forms - style django forms.
 * Django Storages - a collection of custome storage backends with django to work with boto3 and AWS S3.
-* Django Allauth - 
+* Django Allauth -
 * Gunicorn - WSGI HTTP Server for UNIX to aid in deployment of the Django project to Heroku.
 * Pillow - python imaging library to aid in processing image files to store in database.
 * Psycopg2 - PostgreSQL database adapter for python.
@@ -433,30 +435,30 @@ The targert audience for X Cherry store are:
 * PEP8 online - used to validate the Python code.
 * Lighthouse - used to improve the quality of the webpage.
 
-## Databases
+### Databases
 
 * PostgreSQL - for production database, provided by Heroku.
 * SQLite3 - development database, provided by Django.
 
-## Libraries
+### Libraries
 
 * jQuery - used to make the website interactive.
 * Bootstrap - used to create responsive design, grid system, buttons, navbar, dropdown, footer, toast, cards, forms.
 * FontAwesome - provide icons, to make live website.
 * Google Fonts - styled the website fonts.
 
-## Languages
+### Languages
 
 * HTML - used for creating the website.
 * CSS - used for styling the website.
 * Python3 - for the backend development.
 
-# Deployment
+## Deployment
 
 The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
 To access to my page please follow these steps:
 
-## Requirements
+### Requirements
 
 * Gitpod or Visual Studio Code
 * PIP - install packages in Python.
@@ -464,24 +466,24 @@ To access to my page please follow these steps:
 * AWS - create an account cloud storage(create a S3 bucket) for online backup of website static files.
 * git - version control system of code source.
 
-## Download
+### Download
 
-* Navigate to my repository https://github.com/andrius-siup/cherry-on-the-cake.git .
+* Navigate to my repository `https://github.com/andrius-siup/cherry-on-the-cake.git` .
 * Click the **Code** button.
 * Click the **Download Zip**.
 * Extract where you want to keep all files.
 
-## Clone Repository
+### Clone Repository
 
 * GitHub navigate to **andrius-siup/cherry-on-the-cake**.
 * Click the **Code** button.
-* To clone with **HTTPS** copy the URL in the box https://github.com/andrius-siup/cherry-on-the-cake.git
+* To clone with **HTTPS** copy the URL in the box `https://github.com/andrius-siup/cherry-on-the-cake.git`
 * Open your Git Bash.
 * Changed the directory to the location you want to clone to be made.
 * Type git clone than paste the copied URL  `git clone https://github.com/andrius-siup/cherry-on-the-cake.git` .
 * Enter and your local clone will be created.
 
-## Creating an Environment File
+### Creating an Environment File
 
 Install Requirements.txt file, in your terminal type `pip3 install -r requirements.txt` . Next you will need to create **env.py** file for storing sensitive data,
 type `touch env.py` in terminal. This file should never be pushed to GitHub, so type `touch .gitignore` to be able to ignore it. Than open the **.gitignore** file and lets
@@ -551,7 +553,7 @@ Start your server by typing:
 python3 manage.py runserver
 ```
 
-## Deployment to Heroku
+### Deployment to Heroku
 
 To deploy the app using Heroku, use the following steps:
 
@@ -602,6 +604,47 @@ To deploy the app using Heroku, use the following steps:
 1. In the Heroku page, go to Deploy tab and choose the deployment method Github.
 1. Enter your Github link and choose the Automatic Deployments, enable every commit to push directly to Heroku.
 
+## Manual Testing
+
+### Register user | Home page
+
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Logo and Home link | Clicking on the navigation bar's navbar Logo or a Home(on the mobile device) link has been routed to the home page.| Tested, works as should.| No |
+| Register | Clicking on the navigation bar's My Account icon. Clickign the Register link has been routed to the Register page. Input the details in the form and the user will be redirecting to the confirm email page. After confirm email address the user will be redirecting to the sign in page. Input details and the user will be Sign In to the website. |  Tested, works as should. | No |
+| Login | Clicking on the navigation bar's My Account icon. Clickign the Login link has been routed to the login page. Input details and the user will be Sign In to the website.| Tested, works as should.| No |
+| Logout | Clicking on the navigation bar's My Account icon. Clickign the Logout link has been routed to the Logout page. Clicking the Sign Out button, the user will be sign out from the website. | Tested, works as should.| No |
+| Password Reset | Clicking on the navigation bar's My Account icon. Clickign the Login link has been routed to the login page. Below the buttons click the Forgot Password link, the user will be redirecting to the Password Reset page. Enter the email address, the user will be get the email with a link to the Change Password page. Entered new password, the user will be get a message that new password will be added successfully. Than the user can be sign in with new password. | Tested, works as should.| No |
+| My Profile | The have to be login to the website. Clicking on the navigation bar's My Account icon. Clicking on the My Profile link the user will be redirecting into the My Profile page. | Tested, works as should.| No |
+| Shopping Bag | Clicking on the navigation bar's Bag icon, the user will be redirecting to the Bag page. | Tested, works as should.| No |
+| Search bar | Clicking on the navigation bar's the search bar, the user can enter the word and search engine look at the products data. If word will match the searched word, the products will be count and displayed in the page. | Tested, works as should.| No |
+| All Products > By Price | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Price link - the user will be redirecting to the Products page and all products will be displayed by price descending order. | Tested, works as should.| No |
+| All Products > By Rating | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Rating link - the user will be redirecting to the Products page and all products will be displayed by ratinig ascending order. | Tested, works as should.| No |
+| All Products > By Category | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Category link - the user will be redirecting to the Products page and all products will be displayed by category alphabet ascending order. | Tested, works as should.| No |
+| All Products > All Products | Clicking the All Products link the drop down menu will be show the 4 links: clicking All Products link - the user will be redirecting to the Products page and all products from all categories will be displayed. | Tested, works as should.| No |
+| Clothing > Compressions | Clicking the Clothing link the drop down menu will be show the 4 links: clicking Compressions link - the user will be redirecting to the Products page and all products from this category will be displayed in the page. | Tested, works as should.| No |
+| Clothing > T-Shirts | Clicking the Clothing link the drop down menu will be show the 4 links: clicking T-Shirts link - the user will be redirecting to the Products page and all products from this category will be displayed in the page. | Tested, works as should.| No |
+| Clothing > Shorts | Clicking the Clothing link the drop down menu will be show the 4 links: clicking Shorts link - the user will be redirecting to the Products page and all products from this category will be displayed in the page. | Tested, works as should.| No |
+| Clothing > All Clothing | Clicking the Clothing link the drop down menu will be show the 4 links: clicking All Clothing link - the user will be redirecting to the Products page and all products from the all clothing categories will be displayed in the page. Also below the page Header displaying links to the this category sub-categories.  | Tested, works as should.| No |
+| Boxing Gear > Gloves | Clicking the Boxing Gear link the drop down menu will be show the 4 links: clicking Gloves link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Boxing Gear > Head Guard | Clicking the Boxing Gear link the drop down menu will be show the 4 links: clicking Head Guard link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Boxing Gear > Protective Gear | Clicking the Boxing Gear link the drop down menu will be show the 4 links: clicking Protective Gear link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Boxing Gear > All Boxing Gear | Clicking the Boxing Gear link the drop down menu will be show the 4 links: clicking All Boxing Gear link - the user will be redirecting to the Products page and all products from the Boxing Gear categories will be displayed in the page. Also below the page Header displaying links to the this category sub-categories. | Tested, works as should.| No |
+| Training Gear > Skipping Rope | Clicking the Training Gear link the drop down menu will be show the 4 links: clicking Skipping Rope link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Training Gear > Boxing Bag | Clicking the Training Gear link the drop down menu will be show the 4 links: clicking Boxing Bag link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Training Gear > Speed Bag Platform | Clicking the Training Gear link the drop down menu will be show the 4 links: clicking Speed Bag Platform link - the user will be redirecting to the Products page and all products with this category will be displayed in the page. | Tested, works as should.| No |
+| Training Gear > All Training Gear | Clicking the Training Gear link the drop down menu will be show the 4 links: clicking All Training Gear link - the user will be redirecting to the Products page and all products from the all Training Gear categories will be displayed in the page. Also below the page Header displaying links to the this category sub-categories. | Tested, works as should.| No |
+| Products Home | The link will be displaying in the all product pages and redirecting the user to the Product page. | Tested, works as should.| No |
+| Products Counter | Displaying in all product pages and showing the total of products in that page. | Tested, works as should.| No |
+| Sort bar > Price(low to high) | Clicking the sort bar and pick up the Price(low to high) field, the products will be sorted by price descending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Price(high to low) | Clicking the sort bar and pick up the Price(high to low) field, the products will be sorted by price ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Rating(low to high) | Clicking the sort bar and pick up the Rating(low to high) field, the products will be sorted by rating descending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Rating(high to low) | Clicking the sort bar and pick up the Rating(high to low) field, the products will be sorted by rating ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Name(A-Z) | Clicking the sort bar and pick up the Name(A-Z) field, the products will be sorted by name alphabet ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Name(Z-A) | Clicking the sort bar and pick up the Name(Z-A) field, the products will be sorted by name alphabet descending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Category(A-Z) | Clicking the sort bar and pick up the Category(A-Z) field, the products will be sorted by category alphabet ascending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Category(Z-A) | Clicking the sort bar and pick up the Category(Z-A) field, the products will be sorted by category alphabet descending order on all product pages. | Tested, works as should.| No |
+| Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All product pages have this feature. | Tested, works as should.| No |
 
 
 ## The secret key was accidentally pushed to the repo
