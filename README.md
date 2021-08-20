@@ -619,7 +619,6 @@ To deploy the app using Heroku, use the following steps:
 | My Profile > Delivery Form | In My profile the Default delivery information form, the user easy can edit the form. Clicking the Update Information button, the form will be save new data and Success message will be displayed. | Tested, works as should.| No |
 | My Profile > Order History | The Order Number are unique for every single order and user can click on that link and will be redirecting to the Order History page with that order details. | Tested, works as should.| No |
 | Shopping Bag | Clicking on the navigation bar's Bag icon, the user will be redirecting to the Bag page. | Tested, works as should.| No |
-
 | Search bar | Clicking on the navigation bar's the search bar, the user can enter the word and search engine look at the products data(title or description). If word will match the searched word, the products will be count and displayed in the page. | Tested, works as should.| No |
 | All Products > By Price | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Price link - the user will be redirecting to the Products page and all products will be displayed by price descending order. | Tested, works as should.| No |
 | All Products > By Rating | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Rating link - the user will be redirecting to the Products page and all products will be displayed by ratinig ascending order. | Tested, works as should.| No |
