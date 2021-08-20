@@ -423,7 +423,7 @@ The targert audience for X Cherry store are:
 * Gunicorn - WSGI HTTP Server for UNIX to aid in deployment of the Django project to Heroku.
 * Pillow - python imaging library to aid in processing image files to store in database.
 * Psycopg2 - PostgreSQL database adapter for python.
-* pip3 - installation of tools needed for this project.
+* PIP - installation of tools needed for this project.
 * balsamiq - used to create wireframes.
 * Chrome DevTools - used all the time when created the website.
 * grammarly - used to check typo mistakes.
@@ -456,6 +456,14 @@ The targert audience for X Cherry store are:
 The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
 To access to my page please follow these steps:
 
+## Requirements
+
+* Gitpod or Visual Studio Code
+* PIP - install packages in Python.
+* stripe - create an account for online payments.
+* AWS - create an account cloud storage(create a S3 bucket) for online backup of website static files.
+* git - version control system of code source.
+
 ## Download
 
 * Navigate to my repository https://github.com/andrius-siup/cherry-on-the-cake.git .
@@ -473,7 +481,7 @@ To access to my page please follow these steps:
 * Type git clone than paste the copied URL  `git clone https://github.com/andrius-siup/cherry-on-the-cake.git` .
 * Enter and your local clone will be created.
 
-## Creating an Environment File 
+## Creating an Environment File
 
 Install Requirements.txt file, in your terminal type `pip3 install -r requirements.txt` . Next you will need to create **env.py** file for storing sensitive data,
 type `touch env.py` in terminal. This file should never be pushed to GitHub, so type `touch .gitignore` to be able to ignore it. Than open the **.gitignore** file and lets
@@ -502,8 +510,20 @@ Replace the secret keys with your own values from your accounts:
 * The SECRET_KEY can be generated from the [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) .
 * The STRIPE_SECRET_KEY and the STRIPE_PUBLIC_KEY:
   * Sign In stripe.com > Developers > API keys > and you will find the keys.
+* The STRIPE_WH_SECRET > Sign In stripe.com > Developers > Webhooks > Add endpoint( run server > copy the URL and add at the end 'checkout/wh/') > than open up the Webhook Deatils page with Signing key.
 
 Make sure that your env.py file isn't being tracked, type  `git status` and make sure that you can not see it listed.
+
+Or you can store environment variables in Gitpod > Settings > Variables > Environment Variables:
+
+```bash
+'DEVELOPMENT', 'True'
+'SECRET_KEY', '<copy from Django Secret Key Generator>'
+'STRIPE_PUBLIC_KEY', '<copy Stripe Public key>'
+'STRIPE_SECRET_KEY', '<copy Stripe Secret key>'
+'STRIPE_WH_SECRET', '<copy the Webhook Secret key>'
+```
+
 In the settings.py change the DEBUG mode.
 
 ```bash
@@ -531,13 +551,56 @@ Start your server by typing:
 python3 manage.py runserver
 ```
 
+## Deployment to Heroku
 
+To deploy the app using Heroku, use the following steps:
 
+1. Go to [Heroku](https://www.heroku.com/) page and login.
+1. Create new app by click on **New** and **Create New App** . Enter your unique app name, select your region and than click **create app**.
+1. Than find the Resources tab and install the addon Heroku Postgres.
+1. To be able to read Heroku environment variables go to **Settings**  than click on **Reveal Config Vars** .
+1. Add the following variables:
 
+    ```bash
+      KEY 'AWS_ACCESS_KEY_ID' VALUE '<your value>'
+      KEY 'AWS_SECRET_ACCESS_KEY' VALUE '<your value>'
+      KEY 'DATABASE_URL' VALUE 'Heroku added aytomaticly'
+      KEY 'SECRET_KEY' VALUE '<your value>'
+      KEY 'STRIPE_PUBLIC_KEY' VALUE '<your value>'
+      KEY 'STRIPE_SECRET_KEY' VALUE '<your value>'
+      KEY 'STRIPE_WH_SECRET' VALUE '<your value>'
+      KEY 'USE_AWS' VALUE 'True'
+    ```
 
+1. Migrate the database:
 
-  
+    ```bash
+    python3 managa.py makemigrations
+    python3 managa.py migrate
+    ```
 
+1. Create a superuser for the database, in order to access Django administration page.
+
+    ```bash
+    python3 manage.py createsuperuser
+    ```
+
+1. Install Green unicorn, which will act as our webserver:
+
+    ```bash
+    pip3 install gunicorn
+    pip3 freeze > requirements.txt
+    ```
+
+1. Create a new Procfile file to tell Heroku create the web dyno:
+
+    ```bash
+    web: gunicorn x_cherry.wsgi:application
+    ```
+
+1. Push all changes in the Github
+1. In the Heroku page, go to Deploy tab and choose the deployment method Github.
+1. Enter your Github link and choose the Automatic Deployments, enable every commit to push directly to Heroku.
 
 
 
