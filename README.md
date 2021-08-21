@@ -697,7 +697,7 @@ To deploy the app using Heroku, use the following steps:
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
 | Add Product | Clicking the My Account icon > Product Management, the admin will be redirected to the Product Management page that can be  add product. | Tested, works as should.| No |
-| Add Product > Form | The Form has required fields that have to be entered for submit that form. The Success message will be pop-up that inform the adminfor successfully added product to the store. | Tested, works as should.| No |  
+| Add Product > Form | The Form has required fields that have to be entered for submit that form. The Success message will be pop-up that inform the admin for successfully added product to the store. | Tested, works as should.| No |  
 | Add Product > Category | Clicking the category drop down bar, the bar display the category list, that was added from django administration page. | Tested, works as should.| No |
 | Add Product > label with * | The form labels marked with star are required and have to be fill in, to submit the form. | Tested, works as should.| No |
 | Add Product > Description | Description form field can be extended with drag the mouse from the right bottom corner. | Tested, works as should.| No |
@@ -705,6 +705,24 @@ To deploy the app using Heroku, use the following steps:
 | Add Product > Select Image |  Clicking the Select Image button, the window will pop-up and the admin can be add image from the computer disk. | Tested, works as should.| No |
 | Add Product > Cancel | Clicking the Cancel button all entered data will be not saved and the admin will be redirecting to the products page. | Tested, works as should.| No |
 | Add Product > Add Product | Clicking the Add Product button, the form will be saved, the all input data will be redirected to the single product. All form fields must be filed as required, otherwise the error message will pop-up. | Tested, works as should.| No |
+
+### Admin | Edit Product
+
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Edit Product > Products | Clicking the edit link beside the product rating on the Products page, the admin will be redirected to the Edit Product page of this product. The alert message will be pop-up with the product title. | Tested, works as should.| No |
+| Edit Product > Product Detail | Clicking the edit link beside the product rating on the Product Detail page, the admin will be redirected to the Edit Product page of this product. The alert message will be pop-up with the product title. | Tested, works as should.| No |
+| Edit Product > Form | The Form came with saved details that the admin can be edit. The form have required fields that have to be entered for submit that form. The Success message will be pop-up that inform the admin for successfully added product to the store. | Tested, works as should.| No |
+| Edit Product > Category | Clicking the category drop down bar, the bar display the category list, that was added from the django administration page. | Tested, works as should.| No |
+| Edit Product > label with * | The form labels marked with star are required and have to be fill in, to submit the form. | Tested, works as should.| No |
+| Edit Product > Description | Description form field can be extended with drag the mouse from the right bottom corner. | Tested, works as should.| No |
+| Edit Product > Has sizes | Has sizes drop down bar display the option to add the size list on the product. If a product has size the product detail page display the size list. | Tested, works as should.| No |
+| Edit Product > Tick box | Clicking the tick box with label Remove, than clicked the Update Product button. The Product image will be removed.| Tested, works as should.| No |
+| Edit Product > Select Image |  Clicking the Select Image button, the window will pop-up and the admin can be add image from the computer disk, replace the previouse image. | Tested, works as should.| No |
+| Edit Product > Cancel | Clicking the Cancel button all entered data will be not saved(previouse data will be left) and the admin will be redirecting to the products page. | Tested, works as should.| No |
+| Edit Product > Update Product | Clicking the Update Product button, the form will be saved(data), the all input data will be redirected to the single product page. All form fields must be filed as required, otherwise the error message will pop-up. | Tested, works as should.| No |
+
+
 
 
 
