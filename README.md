@@ -682,6 +682,30 @@ To deploy the app using Heroku, use the following steps:
 | Checkout Success > Go Back To All Products | Clicking the Go Back To All Products button, the user will be redirecting to the Products page. | Tested, works as should.| No |
 | Checkout > Adjust Bag | Clicking the Adjust Bag button in the Checkout page, the all Bag data will be saved and user will be redirecting to the Shopping Bag page for edit the product list. | Tested, works as should.| No |
 
+### Non-register user | Purchase a product
+
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Product Detail | In the product deatil page, the user click the Add to Bag button. Than bag icon will be updated with grand total calculations and pop-up Success message with summary of product. In message also are button to link to the shopping bag page. | Tested, works as should.| No |
+| Shopping Bag > Update Qty | In the shopping bag page the user can be update the product quantity, simply clickickg quanity bar plus or minus buttons, or entered the number between 1-99. Clicking the update link the  Success message will be pop-up with update totals calculations, also bag icon will be updated too. |Tested, works as should.| No |
+| Shopping Bag > Remove Qty | Clicking the remove quantity link, the product will be removed from your bag, Success message will pop-up and user will be redirecting to the Shopping Bag page. | Tested, works as should.| No |
+| Shopping Bag > Keep Shopping | The user add product into bag and looking for something else. Clicking the Keep Shopping button into the Shopping Bag page the user will be redirecting to the Products page. The Shopping Bag page will be saved added products data while the user back to this page. | Tested, works as should.| No |
+| Shopping Bag > Secure Checkout | Clicking the Secure Checkout button, the user will be redirecting to the Sign In page with the saved bag data. After entered the Sign In details the user will be redirected to the Checkout page to complete the order. | Tested, works as should.| No |
+
+### Admin | Add Product
+
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Add Product | Clicking the My Account icon > Product Management, the admin will be redirected to the Product Management page that can be  add product. | Tested, works as should.| No |
+| Add Product > Form | The Form has required fields that have to be entered for submit that form. The Success message will be pop-up that inform the adminfor successfully added product to the store. | Tested, works as should.| No |  
+| Add Product > Category | Clicking the category drop down bar, the bar display the category list, that was added from django administration page. | Tested, works as should.| No |
+| Add Product > label with * | The form labels marked with star are required and have to be fill in, to submit the form. | Tested, works as should.| No |
+| Add Product > Description | Description form field can be extended with drag the mouse from the right bottom corner. | Tested, works as should.| No |
+| Add Product > Has sizes | Has sizes drop down bar display the option to add the size list on the product. If a product has size the product detail page display the size list. | Tested, works as should.| No |
+| Add Product > Select Image |  Clicking the Select Image button, the window will pop-up and the admin can be add image from the computer disk. | Tested, works as should.| No |
+| Add Product > Cancel | Clicking the Cancel button all entered data will be not saved and the admin will be redirecting to the products page. | Tested, works as should.| No |
+| Add Product > Add Product | Clicking the Add Product button, the form will be saved, the all input data will be redirected to the single product. All form fields must be filed as required, otherwise the error message will pop-up. | Tested, works as should.| No |
+
 
 
 
