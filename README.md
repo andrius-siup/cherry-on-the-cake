@@ -722,19 +722,52 @@ To deploy the app using Heroku, use the following steps:
 | Edit Product > Cancel | Clicking the Cancel button all entered data will be not saved(previouse data will be left) and the admin will be redirecting to the products page. | Tested, works as should.| No |
 | Edit Product > Update Product | Clicking the Update Product button, the form will be saved(data), the all input data will be redirected to the single product page. All form fields must be filed as required, otherwise the error message will pop-up. | Tested, works as should.| No |
 
+### Admin | Delete Product
 
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Delete Product | Clicking the Delete link in the Poducts page, beside the product Rating. The product will be removed from the website and Success message will be pop-up. The admin will be redirected to the Products page. | Tested, works as should.| No |
+| Delete Product | Clicking the Delete link in the Poduct Detail page, beside the product Rating. The product will be removed from the website and Success message will be pop-up.  The admin will be redirected to the Products page. | Tested, works as should.| No |
 
+### Admin | Add Post
 
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Blog > Add Post | Clicking the button beside the search bar in the Blog Page. The Admin will be redirected to the Add Post page. | Tested, works as should.| No |
+| Add Post > Category | Clicking the category drop down bar, the bar display the category list, that was added from django administration page. Have attribute required. | Tested, works as should.| No |
+| Add Post > Post Title | Entered the text with max 254 character lenght, has attribute required. | Tested, works as should.| No |
+| Add Post > Post Content | Entered text, not specified max lenght, the admin should enough for post content, has attribute required. | Tested, works as should.| No |
+| Add Post > Created by | Entered text, with max 25 character lenght, has attribute required. | Tested, works as should.| No |
+| Add Post > Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
+| Add Post > Add Post | Clicking the Add Post button, the form save all input data and the admin will be redirected to the Post Detail page. | Tested, works as should.| No |
 
+### Admin | Edit Post
 
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Blog > Edit post | Clicking the Edit link bellow the post category tag, in the Blog Page, the admin will be redirected to the Edit Post page. The alert message will be pop-up with the post title. | Tested, works as should.| No |
+| Post Detail > Edit post | Clicking the Edit link above the post category tag, in the Post Detail Page, the admin will be redirected to the Edit Post page. The alert message will be pop-up with the post title. | Tested, works as should.| No |
+| Edit Post >  | Category | Clicking the category drop down bar, the bar display the category list, that was added from django administration page. Have attribute required. The admin can be edit the category from the list. | Tested, works as should.| No |
+| Edit Post >  | Post Title | The admin can edit or enter the new Post Title text with max 254 character lenght, has attribute required. | Tested, works as should.| No |
+| Edit Post >  | Post Content | The admin can edit or enter the new Post content, with max lenght not specified, the admin should enough for post content, has attribute required. | Tested, works as should.| No |
+| Edit Post >  | Created by | The admin can edit or enter the new name, with max 25 character lenght, has attribute required. | Tested, works as should.| No |
+| Edit Post >  | Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
+| Edit Post >  | Update Post | Clicking the Update Post button, the form save all input data and the admin will be redirected to the Post Detail page. | Tested, works as should.| No |
 
+### Admin | Delete Post
 
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+|  |  |
+| Delete Post | Clicking the Delete link in the Blog page, bellow the single post category tag. The post will be removed from the website and Success message will be pop-up. The admin will be redirected to the Blog page. | Tested, works as should.| No |
+| Delete Post | Clicking the Delete link in the Post Detail page, above the post category tag. The post will be removed from the website and Success message will be pop-up.  The admin will be redirected to the Blog page. | Tested, works as should.| No |
 
+### Admin | Delete Comment
 
-
-
-
-
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+|  |  |
+| Post Deatil > Delete Comment | Clicking the Delete link in the Comment, the comment will be removed from the website. | Tested, works as should.| No |
 
 ## The secret key was accidentally pushed to the repo
 
