@@ -666,7 +666,21 @@ To deploy the app using Heroku, use the following steps:
 | Single Post page > Add Comment | Fill up the form. Enter the name, email and the text, the user can click on the Add Comment button, and comment will be displayed in the Comments section, bellow the single post. The latest comment will be displayed at the top of the other comments. | Tested, works as should.| No |
 | Single Post page > Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All single post pages have this feature. | Tested, works as should.| No |
 
+### Register user | Purchase a product
 
+| Test | Action | Result | Errors |
+| ---| --- | --- | --- |
+| Product Detail | In the product deatil page, the user click the Add to Bag button. Than bag icon will be updated with grand total calculations and pop-up Success message with summary of product. In message also are button to link to the shopping bag page. | Tested, works as should.| No |
+| Shopping Bag > Update Qty | In the shopping bag page the user can be update the product quantity, simply clickickg quanity bar plus or minus buttons, or entered the number between 1-99. Clicking the update link the  Success message will be pop-up with update totals calculations, also bag icon will be updated too. |Tested, works as should.| No |
+| Shopping Bag > Remove Qty | Clicking the remove quantity link, the product will be removed from your bag, Success message will pop-up and user will be redirecting to the Shopping Bag page. | Tested, works as should.| No |
+| Shopping Bag > Keep Shopping | The user add product into bag and looking for something else. Clicking the Keep Shopping button into the Shopping Bag page the user will be redirecting to the Products page. The Shopping Bag page will be saved added products data while the user back to this page. | Tested, works as should.| No |
+| Shopping Bag > Secure Checkout | Clicking the Secure Checkout button the user will be redirecting to the Checkout page with all product data. | Tested, works as should.| No |
+| Checkout > Complete Order Form | The user have to enter the details to the form to complete the order. | Tested, works as should.| No |
+| Checkout > Tick box | Clicking the tick box, the user entered details will be saved here and also in the My Profile page. | Tested, works as should.| No |
+| Checkout > Payment | Entered card number(4242 4242 4242 4242), for MM/YY(valid month and year like 05/25), for CVC(3 any digit numbers), for ZIP(5 any digit numbers), the user will be ready to purchase the product. | Tested, works as should.| No |
+| Checkout > Complete Order | Cliking the Complete order button, if form and payment fields are validate the user will redirecting to the Checkout Success page with order details summary. Also Success message will pop-up and email confirmation will be send to the user email. | Tested, works as should.| No |
+| Checkout Success > Go Back To All Products | Clicking the Go Back To All Products button, the user will be redirecting to the Products page. | Tested, works as should.| No |
+| Checkout > Adjust Bag | Clicking the Adjust Bag button in the Checkout page, the all Bag data will be saved and user will be redirecting to the Shopping Bag page for edit the product list. | Tested, works as should.| No |
 
 
 
