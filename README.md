@@ -38,40 +38,40 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ## Project Summary
 
-This is a X Cherry ecommerce website, which I will created for my final milestone project. In this website the user will be find the products with assosiated with the boxing sport. There are also a Blog section, where the admin has grand to add posts assosiated with healthy life and combat sports. The registerd users has access to view the single post and add comments. I hope this website will be create a boxing sport community, where the advance boxers can share the tips with beginers. The admin also has access to add, edit or delete products from the store, remove users comments and lots mor. The website has responsive design, from small phone devices till the large screens. The website was created for educational purposes.
+This is an X Cherry eCommerce website, for the users will find the products associated with the boxing sport. There is also a Blog section, where the admin has grand to add posts associated with healthy living and combat sports. The registered users have access to view the single post and add comments. I hope this website will create a boxing sports community, where the advanced boxers can share tips with beginners. The admin also has access to add, edit or delete products from the store, remove users' comments, and lots more. The website has a responsive design, from small phone devices to large screens. The website was created for educational purposes.
 
 ## Goals
 
 ### Visitors Goals
 
-The targert audience for X Cherry store are:
+The target audience for X Cherry store are:
 
-* Beginer boxers who will looking to purchase a new product for they boxing training class.
-* Advance boxers who will looking to update the boxing gear or cloths.
-* Boxing clubs who will looking to purchase training gear or boxing gear equipment.
-* The all Boxing sport fans for be active in the Blog.
+* Beginner boxers who will look to purchase a new product for their boxing lessons.
+* Advance boxers who will look to update the boxing gear or clothes.
+* Boxing clubs who will look to purchase training gear or boxing gear equipment.
+* all Boxing sports fans for being active in the Blog.
 
 ### User Goals
 
-* Easaly navigate trough the website.
-* Securely sign up, sign in and login into the website.
+* Easily navigate through the website.
+* Securely sign up, sign in, and login into the website.
 * Restore the password.
 * Simply buy the product, with calculations for free delivery.
-* Saved the delivery information, for future shoppings.
-* Have the Order history.
-* Used search bar for find the products.
+* Saved the delivery information, for future shopping.
+* Keep the Order history.
+* Used search bar to find the products.
 * Sort the products.
-* Read the posts in the website Blog.
+* Read the posts on the website Blog.
 * Leave the comments for a single post.
 
 ### Business Goals
 
 * Sell the products.
 * Attract new customers.
-* Keep the existing shoppers, sell the good quality products for the competitive price.
-* Provide all the customers information they need online, so that they do not need to call or email.
-* Have online payment system and keep secure.
-* Have instant email notification of purchased products with customer detais.
+* Keep the existing shoppers, sell good quality products for a competitive price.
+* Provide all the customer's information they need online so that they do not need to call or email.
+* Have an online payment system and keep secure.
+* Have instant email notification of purchased products with customer details.
 
 ### X Cherry Goal
 
@@ -89,35 +89,35 @@ The targert audience for X Cherry store are:
 * As a user, I expect to be able to save my sign-in details for future access to this site.
 * As a user, I expect to be able to restore my forgotten password.
 * As a user, I want to easily navigate through all the pages.
-* As a user, I expect to be able to the shopping bag icon with the amount into the navigation bar, for easily manage my spending.
+* As a user, I expect to be able to the shopping bag icon with the amount into the navigation bar, to easily manage my spending.
 * As a user, I want to get success, info, and errors messages for my daily uses.
 * As a user, I want to know if there is a free delivery from this site.
-* As a user, in the Products page I want to find products by category, subcategories.
-* As a user, in the Products page I want to sort products by price, rating, name, and category.
-* As a user, in the Products page I want to be able to access to the product detail page, to see product description, choose size and quantity, also see the rating and category a clickable.
-* As a user, in the Products page I want to see the Back to Top button if there is a lot of products.
+* As a user, on the Products page, I want to find products by category, subcategories.
+* As a user, on the Products page, I want to sort products by price, rating, name, and category.
+* As a user, on the Products page I want to be able to access to the product detail page, to see product description, choose size and quantity, also see the rating and category a clickable.
+* As a user, on the Products page, I want to see the Back to Top button if there is a lot of products.
 
-* As a user, in the Product Detail page I want to be able to see the product image in the bigger view.
-* As a user, in the Product Detail page I want to see the ADD TO BAG button in the product details page, to add a product in the shopping bag.
-* As a user, in the Product Detail page I want to see the message success when I added the product into the shopping bag.
-* As a user, in the Product Detail page I expect to be able to see a success messages with all details of the product like name, how many items are in the bag, items image, total, info line with getting free delivery, and button go to checkout.
+* As a user, on the Product Detail page, I want to be able to see the product image in the bigger view.
+* As a user, on the Product Detail page, I want to see the ADD TO BAG button in the product details page, to add a product in the shopping bag.
+* As a user, on the Product Detail page, I want to see the message success when I added the product into the shopping bag.
+* As a user, on the Product Detail page I expect to be able to see success messages with all details of the product like name, how many items are in the bag, items image, total, info line with getting free delivery, and button go to checkout.
 
-* As a user, in the Shopping bag page I expect to be able to do changes like: add more and remove the number of products, also see updates of bag total, delivery cost, and grand total.
-* As a user, in the Shopping bag page I expect to be able to see the cost of the products: like bag total, delivery cost and grand total. Also, the info text with calculations to get free delivery.
-* As a user, in the Shopping bag page I expect to be able to see buttons like: back to Products page and go to Secure Checkout page.
+* As a user, in the Shopping bag page, I expect to be able to do changes like add more and remove the number of products, also see updates of bag total, delivery cost, and grand total.
+* As a user, on the Shopping bag page I expect to be able to see the cost of the products: like bag total, delivery cost, and grand total. Also, the info text with calculations to get free delivery.
+* As a user, on the Shopping bag page, I expect to be able to see buttons like: back to the Products page and go to Secure Checkout page.
 
 * As a user on the checkout page I want to see the form to complete my order, like my own details, delivery information, and payment card field.
 * As a user on the checkout page I expect to be able to see the Order summary with all totals.
 * As a user on the checkout page I expect to be able to save my own delivery information for future shoppings.
-* As a user on the checkout page, I want to be able to back into the shopping bag to do some change.
+* As a user on the checkout page, I expect to want to be able to back into the shopping bag to do some change.
 
 * As a user, on the Checkout Success page, I want to see the order information with all details.
 * As a user, on the Checkout Success page, I want to see the success message with the order number and email confirmation.
-* As a user, on the Checkout Success page, I want to be able back to the products page.
+* As a user, on the Checkout Success page, I expect to want to be able back to the products page.
 
 * As a user of the website I would like to has access to the site Blog, to read the useful posts.
 * As a user on the Blog page I want to see the latest post at, top of the Blog.
-* As a user on the Blog page, I want to see all posts with a short text, to read a little bit, and if is interest go to post detail page.
+* As a user on the Blog page, I want to see all posts with a short text, to read a little bit, and if is interest go to the post detail page.
 * As a user on the Blog page I want to see the search bar to quick and easy find the post.
 * As a user on the Blog page, I want to sort the posts by name, category, date.
 * As a user on the Blog page I want to find the posts by category label below the post text. That is to see all posts in this category.
@@ -136,7 +136,7 @@ The targert audience for X Cherry store are:
 ### Site owner/admin user stories
 
 * As an admin of the website, I want to have access to the add, edit or delete products and blog posts also access to delete user's comments.
-* As an admin of the website, in the My Account icon, I want to see the Product Management link, which will be redirected into Add product page.
+* As an admin of the website, in the My Account icon, I want to see the Product Management link, which will be redirected to Add product page.
 * As an admin of the website, on the Add Product page, I would like to see a user-friendly input form, that I can manually add new products.
 * As an admin of the website, in the Add Product page form, I want to see the form fields:
   * Category
@@ -149,7 +149,7 @@ The targert audience for X Cherry store are:
   * Image URL
   * Add local image
     * buttons:
-      * Add Product - save the new data and redirect into the Product Detail page. To look how everything looks from the user's side.
+      * Add Product - save the new data and redirect to the Product Detail page. To look at how everything looks from the user's side.
       * Cancel - data not saved and simple back into the Products page.
 
 * As an admin of the website, in the Products page and Product detail page, I want to see the edit and delete product links.
@@ -188,7 +188,7 @@ The targert audience for X Cherry store are:
 * As a non-register user, on the Products page, I want to find products by category, subcategories.
 * As a non-register user, on the Products page, I want to sort products by price, rating, name, and category.
 * As a non-register user, on the Products page, I want to see the Back to Top button if there is a lot of products.
-* As a non-register user, in the Products page I want to be able to access to the Product Detail page, to see full product informationproduct.
+* As a non-register user, on the Products page, I want to be able to access the Product Detail page, to see full product information product.
 
 * As a non-register user, on the Product Detail page I want to be able to see the product full information:
   * Product Name
@@ -202,7 +202,7 @@ The targert audience for X Cherry store are:
     * Back to Products - simple redirecting the non-register user into the Products page.
     * Add to Bag - add the product into the shopping bag, display the item price into the bag icon(into the navigation bar).
 * As a non-register user, on the Product Detail page, I want to see the message success when I added the product into the shopping bag.
-* As a non-register user, in the Product Detail page I expect to be able to see success messages with all details of the product like name, how many items are in the bag, items image, total, info line with getting free delivery, and button go to checkout.
+* As a non-register user, on the Product Detail page I expect to be able to see success messages with all details of the product like name, how many items are in the bag, items image, total, info line with getting free delivery, and button go to checkout.
 
 * As a non-register user, on the Shopping bag page, I expect to be able to do changes like add more and remove the number of products.
 * As a non-register user, on the Shopping bag page I expect to be able to see the cost of the products: like bag total, delivery cost, and grand total. Also, the info text with calculations to get free delivery.
@@ -223,126 +223,126 @@ The targert audience for X Cherry store are:
 ## Features
 
 * All pages: Templates (base.html, mobile-top-header.html, main-nav.html)
-  * Mobile version - nav bar:
+  * Mobile version - navbar:
     * Click the Hamburger button - drop down the page links:
       * Click the Home link - redirecting to the home page.
-      * Clicking the All Products link - the drop down the 4 links:
+      * Clicking the All Products link - the drop-down the 4 links:
         * By Price - show sorted all products for descending order.
-        * By Rating - show sorted all products by acsending rating order.
-        * By Category - show sorted all product by ascending category order.
-        * All Products - show the all products.
-      * Clicking the Clothing link - the drop down the 4 links:
-        * Compressions - show all compressions cloths from the store.
+        * By Rating - show sorted all products by ascending rating order.
+        * By Category - show sorted all products by ascending category order.
+        * All Products - show all products.
+      * Clicking the Clothing link - the drop-down the 4 links:
+        * Compressions - show all compressions clothes from the store.
         * T-Shirts - show all T-Shirts from the store.
         * Shorts - show all shorts from the store.
-        * All Clothing - shows all clothing categories in one page.
-      * Clicking the Boxing Gear link - the drop down the 4 category links:
+        * All Clothing - shows all clothing categories on one page.
+      * Clicking the Boxing Gear link - the drop-down the 4 category links:
         * Gloves - shows all boxing gloves from the store.
         * Head Guard - shows all head guards from the store.
         * Protective Gear - shows Mouthguard, Groin Guard, Handwraps, Chest Guard Womens from the store.
         * All Boxing Gear - shows all the products from three categories.
-      * Clicking the Training Gear link - the drop down the 4 category links:
+      * Clicking the Training Gear link - the drop-down the 4 category links:
         * Skipping Ropes - shows the skipping rope products.
         * Boxing Bag - shows the boxing bag categories products.
         * Speed Bag Platform - shows the speed bag platform category products.
-        * All Training Gear - shows the all 3 categories products.
-      * Clicking the Blog link - redirecting into the site blog page.
-    * Clicking Search bar - input a word and  search engine look at the products section.
+        * All Training Gear - shows all 3 categories of products.
+      * Clicking the Blog link - redirecting to the site blog page.
+    * Clicking Search bar - input a word and search engine look at the products section.
     * Click the My Account icon:
       * Non-register user - drop down the links for Register and Login pages.
       * Logged in user - drop down the My Profile and Logout pages.
       * Logged in admin - drop down the Product Management, My Profile, Logout pages.
-    * Click the Shopping Bag icon - redirectting into Shopping bag page.
-    * Click the Search bar icon - input a word and  search engine look at the products section.
+    * Click the Shopping Bag icon - redirecting to the Shopping bag page.
+    * Click the Search bar icon - input a word and search engine look at the products section.
     * Click the My Account icon:
       * Non-register user - drop down the links for Register and Login links.
       * Logged in user - drop down the My Profile and Logout links.
       * Logged in admin - drop down the Product Management, My Profile, Logout links.
-    * Click the Shopping Bag icon - redirectting into Shopping bag page.
+    * Click the Shopping Bag icon - redirecting to the Shopping bag page.
   * Desktop version - nav bar:
     * Click the Logo - redirecting to the home page.
-    * Clicking Search bar - input a word and  search engine look at the products section.
+    * Clicking Search bar - input a word and search engine look at the products section.
     * Click the My Account icon:
       * Non-register user - drop down the links for Register and Login pages.
       * Logged in user - drop down the My Profile and Logout pages.
       * Logged in admin - drop down the Product Management, My Profile, Logout pages.
-    * Click the Shopping Bag icon - redirectting into Shopping bag page.
-    * Clicking the All Products link - the drop down the 4 links:
+    * Click the Shopping Bag icon - redirecting to the Shopping bag page.
+    * Clicking the All Products link - the drop-down the 4 links:
       * By Price - show sorted all products for descending order.
-      * By Rating - show sorted all products by acsending rating order.
-      * By Category - show sorted all product by ascending category order.
-      * All Products - show the all products.
-    * Clicking the Clothing link - the drop down the 4 links:
-      * Compressions - show all compressions cloths from the store.
+      * By Rating - show sorted all products by ascending rating order.
+      * By Category - show sorted all products by ascending category order.
+      * All Products - show all products.
+    * Clicking the Clothing link - the drop-down the 4 links:
+      * Compressions - show all compressions clothes from the store.
       * T-Shirts - show all T-Shirts from the store.
       * Shorts - show all shorts from the store.
-      * All Clothing - shows all clothing categories in one page.
-    * Clicking the Boxing Gear link - the drop down the 4 category links:
+      * All Clothing - shows all clothing categories on one page.
+    * Clicking the Boxing Gear link - the drop-down the 4 category links:
       * Gloves - shows all boxing gloves from the store.
       * Head Guard - shows all head guards from the store.
       * Protective Gear - shows Mouthguard, Groin Guard, Handwraps, Chest Guard Womens from the store.
       * All Boxing Gear - shows all the products from three categories.
-    * Clicking the Training Gear link - the drop down the 4 category links:
+    * Clicking the Training Gear link - the drop-down the 4 category links:
       * Skipping Ropes - shows the skipping rope products.
       * Boxing Bag - shows the boxing bag categories products.
       * Speed Bag Platform - shows the speed bag platform category products.
-      * All Training Gear - shows the all 3 categories products.
-    * Clicking the Blog link - redirecting into the site blog page.
+      * All Training Gear - shows all 3 categories of products.
+    * Clicking the Blog link - redirecting to the site blog page.
 * Home app features :
   * Hero image on loading page.
   * Shop Now button. Mouse over change the button background color. Redirecting to the products page.
 
 * Products app features:
-  * products.html features are to store all products in the single page.The single product is wrapped in the card.
+  * products.html features are to store all products on a single page. The single product is wrapped in the card.
     * Product counter - shows how many products are in the store.
-    * The card shows the product image, name, price, category(link to this category products) and raiting. The website admin has access to edit and delete links beside the rating.
-    * The drop down sort bar - sorting products by price, rating, name or category.
-    * Back to top link - bring you at the top of the page.
-    * Break Line - separate the products by the divece screen size.
-  * product_details.html features are single product page. There is display all information about the product.
-    * Product image - biger size image.
+    * The card shows the product image, name, price, category(link to this category products), and rating. The website admin has access to edit and delete links beside the rating.
+    * The drop-down sort bar - sorting products by price, rating, name, or category.
+    * Back to top link - bring you to the top of the page.
+    * Break Line - separate the products by the device screen size.
+  * product_details.html features are single product pages. There is display all information about the product.
+    * Product image - bigger size image.
     * Product name
-    * Produc price
-    * Product category - link that redirected into products page by this category.
+    * Product price
+    * Product category - the link that redirected into products page by this category.
     * Product description - the full information about the product.
-    * Size - if product has more than one size there is a drop down size bar - the user can choose the size.
-    * Quantity - how many items user want to buy. Always shows 1, but user can choose from 1-99. There are plus(+) and minus(-) simbols buttons, or the user can simply input the number.
+    * Size - if the product has more than one size there is a drop-down size bar - the user can choose the size.
+    * Quantity - how many items the user wants to buy. Always shows 1, but the user can choose from 1-99. There are plus(+) and minus(-) symbols buttons, or the user can simply input the number.
     * Keep Shopping button - redirecting the user into the products page.
-    * Add to Bag button - adding the item into shopping bag. The shopping bag icon in the nav bar display the price and pop-up Success message, that displaying the all information: product name, size, quantity, total(without delivery), total how much to spend to get free delivery, and button to chekout page.
-  * add_product.html features are input form to add product to the store. Only admin has access to this page. The form fields are:
-    * Category - drop down bar with all categories that added admin from the django administration page.
-    * SKU - it is product detail short code, the admin can input the max character 254 lenght.
-    * Name - product name, required and max character lenght are 254, and has attribute required.
-    * Description - input text, not specified max lenght, the admin should enough for product description, has attribute required.
-    * Has sizes - drop down bar with 3 choises, yes, no, uknown. The choise yes will display the drop down bar into product_detail page.
+    * Add to Bag button - adding the item into the shopping bag. The shopping bag icon in the navbar displays the price and pop-up Success message, which displays all information: product name, size, quantity, total(without delivery), total how much to spend to get free delivery, and button to the checkout page.
+  * add_product.html features are input form to add the product to the store. Only the admin has access to this page. The form fields are:
+    * Category - drop-down bar with all categories that added admin from the Django administration page.
+    * SKU - it is product detail short code, the admin can input the max character 254 lengths.
+    * Name - product name, max character length are 254 and have an attribute, required.
+    * Description - input text, not specified max length, the admin should enough for product description, has attribute required.
+    * Has sizes - drop down bar with 3 choices, yes, no, unknown. The choice yes will display the drop-down bar on the Product Detail page.
     * Price - input max 6 numbers with 2 decimal places, has attribute required.
-    * Rating - has input max one number and max 2 decilam places.
-    * Image url - has input max 1024 character long url. Not required, than used default image.
-    * Select Image button - add image from your computer. Not required, than used default image.
+    * Rating - has input max one number and max 2 decimal places.
+    * Image URL - has input max 1024 character long URL. Not required, then used default image.
+    * Select Image button - add an image from your computer. Not required, then used default image.
     * Cancel button - redirecting the user into the products page.
-    * Add Product button - save the all input data and redirecting into the product_detail page. All form fields must be filed as required, otherwise the error message will pop-up.
-  * edit_product.html features are to edit the product_detail page. There are same form like in add_product page and all requirements are same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only admin has access to this page.
-  * Delete product - there are delete product link into products and the product_detail pages beside the product rating. Simply removing all product data from the website. Only Admin has access to do it.
+    * Add Product button - save all input data and redirecting to the Product Detail page. All form fields must be filed as required, otherwise, the error message will pop up.
+  * edit_product.html features are to edit the Product Detail page. There is the same form as on the Add Product page and all requirements are the same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only the admin has access to this page.
+  * Delete product - there are delete product links into Products and the Product Detail pages besides the product rating. Simply removing all product data from the website. Only Admin has access to do it.
 
-* Blog app features are to store the website post. There only admin can add new, edit or delete posts. All posts will be displayed by added date order. Latest added will be first on the page.
+* Blog app features are to store the website post. There only the admin can add new, edit or delete posts. All posts will be displayed by added date order. The Latest added will be first on the page.
   * blogs.html features are:
-    * Search bar - searched the input word into the post title or post content. Founed posts shows by latest first, also displaying how many posts find.
-    * Sorting bar - sorting posts by name, category and date. You can used search bar for find the post and sort than by date. To reset your searches click the Back to Blog link.
-    * Add Post button - only admin has access to this page, there is a hide for others users, but if the user goes to this page by URL, than he will redirected into 404 error page.
-    * The single post will displays into card: post title, created date, short content about 50 word, post category(link to this category posts) and button to post detail page.
-    * Back to Top button - sticked in the right bottom page corner, simply bring the user top of the page.
-  * blog_post_detail.html features are to see the single post with all content. Only registered user has access to this page. There is also a link to edit and delete the post(only admin has access), post category link, button to back to Blog home page. Below the post detail content displaying the users comments. At the bottom of the page, there are the Add Comment form with button. Added new comment will be displayed at the top in comment section. Only admin has access to delete comments. Every single comment has delete link.
-  * add_blog_post.html features are to add a post into the blog. Only admin has access to do this. There is a form:
-    * Category - drop down bar with categories list, that was added from the django administration page, has attribute required.
-    * Post Title - input field with max 254 character lenght, has attribute required.
-    * Content - input text, not specified max lenght, the admin should enough for post content, has attribute required.
-    * Created by - input text, with max 25 character lenght, has attribute required.
-    * Cancel button - not save the input data and redirecting into the blogs page.
-    * Add Post button - save all input data and redirecting into the post_detail page.
-  * edit_blog_post.html features are to edit single the blog post. Only admin has access to this page. There is a form same as like to add post form, just with saved all data that admin can edit or replace. There is two buttons:
-    * Cancel button - not save the input data, leave the old data and redirecting into the blogs page.
-    * Update Post button - save the inputed data and redirecting into the post_detail page.
-  * delete post features are to delete post with all data from the website. Only admin has access to do this.
+    * Search bar - searched the input word into the post title or post content. If the word will match the founded posts show by latest first, also displaying how many posts find.
+    * Sorting bar - sorting posts by name, category, and date. You can use the search bar to find the post and sort than by date. To reset your searches click the Back to Blog link.
+    * Add Post button - only admin has access to this page, there is a hide for other users, but if the user goes to this page by URL, then he will be redirected to 404 error page.
+    * The single post will displays into a card: post title, created date, short content about 50 words, post category(link to this category posts), and button to redirecting to the Post Detail page.
+    * Back to Top button - stick in the right bottom page corner, simply bring the user top of the page.
+  * blog_post_detail.html features are to see the single post with all content.  A registered user has access to this page. There is also a link to edit and delete the post(only admin has access), post category link, button to back to Blog home page. Below the Post Detail content displaying the user's comments. At the bottom of the page, there is the Add Comment form with a button. Added new comments will be displayed at the top in the comment section. Only the admin has access to delete comments. Every single comment has a delete link.
+  * add_blog_post.html features are to add a post into the blog. Only the admin has access to do this. There is a form:
+    * Category - drop-down bar with categories list, that was added from the Django administration page, has attribute required.
+    * Post Title - input field with max 254 character length, has attribute required.
+    * Content - input text, not specified max length, the admin should enough for post content, has attribute required.
+    * Created by - input text, with max 25 character length, has attribute required.
+    * Cancel button - not save the input data and redirecting to the blogs page.
+    * Add Post button - save all input data and redirecting to the post_detail page.
+  * edit_blog_post.html features are to edit single the blog post. Only the admin has access to this page. There is a form same as like to add post form, just with saved all data that admin can edit or replace. There are two buttons:
+    * Cancel button - not save the input data, leave the old data, and redirecting into the blogs page.
+    * Update Post button - save the input data and redirecting to the Post Detail page.
+  * delete post features are to delete posts with all data from the website. Only the admin has access to do this.
 
 * Profiles app features are to keep the user delivery information and order history.
   * profile.html features are the page divided into 2 parts:
