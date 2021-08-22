@@ -329,6 +329,19 @@ footer ul {
     font-size: 1.7rem;
 }
 
+/* -------------------------------- 404 error */
+.fof-container.jumbotron {
+    border-color: #e9ecef96;
+}
+
+.fof-container.jumbotron h1 {
+    color: #000;
+}
+
+.fof-container.jumbotron p {
+    color: #000;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -518,6 +531,17 @@ footer ul {
     .profile-container {
         min-height: 80vh;
     }
+
+}
+
+/* ------------------------------- for tablet devices and up: width is 768px wide or more */
+@media (min-width: 768px) {
+    
+    /* ------------------------------- 404 error */
+    .fof-container {
+        height: 90vh;
+    }
+
 
 }
 
