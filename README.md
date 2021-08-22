@@ -615,11 +615,13 @@ To deploy the app using Heroku, use the following steps:
 | Login | Clicking on the navigation bar's My Account icon. Clickign the Login link has been routed to the login page. Input details and the user will be Sign In to the website.| Tested, works as should.| No |
 | Logout | Clicking on the navigation bar's My Account icon. Clickign the Logout link has been routed to the Logout page. Clicking the Sign Out button, the user will be sign out from the website. | Tested, works as should.| No |
 | Password Reset | Clicking on the navigation bar's My Account icon. Clickign the Login link has been routed to the login page. Below the buttons click the Forgot Password link, the user will be redirecting to the Password Reset page. Enter the email address, the user will be get the email with a link to the Change Password page. Entered new password, the user will be get a message that new password will be added successfully. Than the user can be sign in with new password. | Tested, works as should.| No |
+| Home | Shop Now | Clicking the Shop Now button, the user will be redirected to the Products page. | Tested, works as should.| No |
 | My Profile | The have to be login to the website. Clicking on the navigation bar's My Account icon. Clicking on the My Profile link the user will be redirecting into the My Profile page. | Tested, works as should.| No |
 | My Profile > Delivery Form | In My profile the Default delivery information form, the user easy can edit the form. Clicking the Update Information button, the form will be save new data and Success message will be displayed. | Tested, works as should.| No |
 | My Profile > Order History | The Order Number are unique for every single order and user can click on that link and will be redirecting to the Order History page with that order details. | Tested, works as should.| No |
 | Shopping Bag | Clicking on the navigation bar's Bag icon, the user will be redirecting to the Bag page. | Tested, works as should.| No |
 | Search bar | Clicking on the navigation bar's the search bar, the user can enter the word and search engine look at the products data(title or description). If word will match the searched word, the products will be count and displayed in the page. | Tested, works as should.| No |
+| Search bar > without enter a word | Clicking on the navigation bar's the search bar icon(without entered a word), the user will be redirected to the product page. Also, pop up the Error message. | Tested, works as should.| No |
 | All Products > By Price | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Price link - the user will be redirecting to the Products page and all products will be displayed by price descending order. | Tested, works as should.| No |
 | All Products > By Rating | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Rating link - the user will be redirecting to the Products page and all products will be displayed by ratinig ascending order. | Tested, works as should.| No |
 | All Products > By Category | Clicking the All Products link the drop down menu will be show the 4 links: clicking By Category link - the user will be redirecting to the Products page and all products will be displayed by category alphabet ascending order. | Tested, works as should.| No |
@@ -646,6 +648,7 @@ To deploy the app using Heroku, use the following steps:
 | Sort bar > Name(Z-A) | Clicking the sort bar and pick up the Name(Z-A) field, the products will be sorted by name alphabet descending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Category(A-Z) | Clicking the sort bar and pick up the Category(A-Z) field, the products will be sorted by category alphabet ascending order on all product pages. | Tested, works as should.| No |
 | Sort bar > Category(Z-A) | Clicking the sort bar and pick up the Category(Z-A) field, the products will be sorted by category alphabet descending order on all product pages. | Tested, works as should.| No |
+| Sort bar > Sort by | Clicking the sort bar and pick up the Sort by field, the products will be reset sort search. | Tested, works as should.| No |
 | Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All product pages have this feature. | Tested, works as should.| No |
 | Sub-category > below the single product price | Clicking the tag icon with category name, the user will redirecting to this category products page. | Tested, works as should.| No |
 | Blog | Clicking on the navigation bar's the Blog link, the user have been routed to the blog page.| Tested, works as should.| No |
@@ -658,6 +661,7 @@ To deploy the app using Heroku, use the following steps:
 | Blog > Sort bar > Category(Z-A) | Clicking the sort bar and pick up the Category(Z-A) field, the posts will be sorted by category, alphabet descending order on all post pages. | Tested, works as should.| No |
 | Blog > Sort bar > Date(Oldest-Latest) | Clicking the sort bar and pick up the Date(Oldest-Latest) field, the posts will be sorted by date, ascending order(oldest post will be displayed top of the page) on all post pages. | Tested, works as should.| No |
 | Blog > Sort bar > Date(Latest-Oldest) | Clicking the sort bar and pick up the Date(Latest-Oldest) field, the posts will be sorted by date, descending order(Latest post will be displayed the top of the page) on all post pages. | Tested, works as should.| No |
+| Sort bar > Sort by | Clicking the sort bar and pick up the Sort by field, the products will be reset sort search. | Tested, works as should.| No |
 | Post Category | Clicking the post category (tag icon with category name, bellow the post), the user will be redirecting to the this category posts. | Tested, works as should.| No |
 | View More | Clicking the View More button, bellow the post in the Blog page, the user will be redirecting to the single Post page. | Tested, works as should.| No |
 | Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All post pages have this feature. | Tested, works as should.| No |
@@ -665,6 +669,10 @@ To deploy the app using Heroku, use the following steps:
 | Single Post page > Back to Blog | The link will be  redirecting the user to the Blog page. | Tested, works as should.| No |
 | Single Post page > Add Comment | Fill up the form. Enter the name, email and the text, the user can click on the Add Comment button, and comment will be displayed in the Comments section, bellow the single post. The latest comment will be displayed at the top of the other comments. | Tested, works as should.| No |
 | Single Post page > Back to Top | Clicking the right bottom corner link up arrow, this is the "Back to Top" link, which will bring the user to the top of the page. All single post pages have this feature. | Tested, works as should.| No |
+| Footer > Facebook | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the Facebook(future will be website account) page. | Tested, works as should.| No |
+| Footer > Instagram | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the Instagram(future will be website account) page. | Tested, works as should.| No |
+| Footer > LinkedIn | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the LinkedIn(future will be website account) page. | Tested, works as should.| No |
+| Footer > Github | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the Github(in the future will be replaced into another social media website account) page. | Tested, works as should.| No |
 
 ### Register user | Purchase a product
 
