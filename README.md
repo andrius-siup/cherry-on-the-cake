@@ -413,27 +413,27 @@ The target audience for X Cherry store are:
 
 ## Technologies Used
 
-* Gitpod - used to build all the project.
-* GitHub - used to host the website.
-* Heroku - used to deploy the website.
-* Django - a python web framework for rapid development and design.
-* Stripe - payment platform to validate and accept credit card payments securely.
-* AWS S3 Bucket - store static files and images entered into the databases.
-* Django Crispy Forms - style Django forms.
-* Django Storages - a collection of custom storage backends with Django to work with boto3 and AWS S3.
-* Django Allauth -
-* Gunicorn - WSGI HTTP Server for UNIX to aid in deployment of the Django project to Heroku.
-* Pillow - python imaging library to aid in processing image files to store in the database.
-* Psycopg2 - PostgreSQL database adapter for python.
-* PIP - installation of tools needed for this project.
-* Balsamiq - used to create wireframes.
-* Chrome DevTools - used all the time when created the website.
-* Grammarly - used to check typo mistakes.
-* W3C Markup Validation Service - used to validate HTML code.
-* CSS Validation Service - used to validate CSS code.
-* JSHint - used to validate the jQuery code.
-* PEP8 online - used to validate the Python code.
-* Lighthouse - used to improve the quality of the webpage.
+* [Gitpod](https://www.gitpod.io/) - used to build all the project.
+* [GitHub](https://github.com/) - used to host the website.
+* [Heroku](https://www.heroku.com/) - used to deploy the website.
+* [Django](https://www.djangoproject.com/) - a python web framework for rapid development and design.
+* [Stripe](https://stripe.com/en-gb-lt) - payment platform to validate and accept credit card payments securely.
+* [AWS S3 Bucket](https://aws.amazon.com/) - store static files and images entered into the databases.
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - style Django forms.
+* [Django Storages](https://django-storages.readthedocs.io/en/latest/) - a collection of custom storage backends with Django to work with boto3 and AWS S3.
+* [Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+* [Gunicorn](https://docs.gunicorn.org/en/stable/) - WSGI HTTP Server for UNIX to aid in deployment of the Django project to Heroku.
+* [Pillow](https://pillow.readthedocs.io/en/stable/) - python imaging library to aid in processing image files to store in the database.
+* [Psycopg2](https://pypi.org/project/psycopg2/) - PostgreSQL database adapter for python.
+* [PIP](https://pip.pypa.io/en/stable/getting-started/) - installation of tools needed for this project.
+* [Balsamiq](https://balsamiq.com/) - used to create wireframes.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used all the time when created the website.
+* [Grammarly](https://www.grammarly.com/) - used to check typo mistakes.
+* [W3C Markup Validation Service](https://validator.w3.org/) - used to validate HTML code.
+* [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - used to validate CSS code.
+* [JSHint](https://jshint.com/) - used to validate the jQuery code.
+* [PEP8 online](http://www.pep8online.com/) - used to validate the Python code.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used to improve the quality of the webpage.
 
 ### Databases
 
@@ -615,7 +615,7 @@ To deploy the app using Heroku, use the following steps:
 | Login | Clicking on the navigation bar's My Account icon. Clicking the Login link has been routed to the login page. Input details and the user will be Sign In to the website.| Tested, works as should.| No |
 | Logout | Clicking on the navigation bar's My Account icon. Clicking the Logout link has been routed to the Logout page. Clicking the Sign Out button, the user will be signed out from the website. | Tested, works as should.| No |
 | Password Reset | Clicking on the navigation bar's My Account icon. Clicking the Login link has been routed to the login page. Below the buttons click the Forgot Password link, the user will be redirected to the Password Reset page. Enter the email address, the user will get the email with a link to the Change Password page. Entered new password, the user will get a message that a new password will be added successfully. Then the user can sign in with a new password. | Tested, works as should.| No |
-| Home | Shop Now | Clicking the Shop Now button, the user will be redirected to the Products page. | Tested, works as should.| No |
+| Home > Shop Now | Clicking the Shop Now button, the user will be redirected to the Products page. | Tested, works as should.| No |
 | My Profile | They have to be login to the website. Clicking on the navigation bar's My Account icon. Clicking on the My Profile link the user will be redirected to the My Profile page. | Tested, works as should.| No |
 | My Profile > Delivery Form | In My profile the Default delivery information form, the user easily can edit the form. Clicking the Update Information button, the form will save new data, and a Success message will be displayed. | Tested, works as should.| No |
 | My Profile > Order History | The Order numbers are unique for every single order and the user can click on that link and will be redirected to the Order History page with that order details. | Tested, works as should.| No |
@@ -755,12 +755,12 @@ To deploy the app using Heroku, use the following steps:
 | ---| --- | --- | --- |
 | Blog > Edit post | Clicking the Edit link below the post category tag, in the Blog Page, the admin will be redirected to the Edit Post page. The alert message will be pop-up with the post title. | Tested, works as should.| No |
 | Post Detail > Edit post | Clicking the Edit link above the post category tag, in the Post Detail Page, the admin will be redirected to the Edit Post page. The alert message will be pop-up with the post title. | Tested, works as should.| No |
-| Edit Post >  | Category | Clicking the category drop-down bar, the bar displays the category list, that was added from the Django administration page. Have attribute, required. The admin can edit the category from the list. | Tested, works as should.| No |
-| Edit Post >  | Post Title | The admin can edit or enter the new Post Title text with a max of 254 characters length. Have attribute, required. | Tested, works as should.| No |
-| Edit Post >  | Post Content | The admin can edit or enter the new Post content, with max length not specified, the admin should enough for post content, has attribute required. | Tested, works as should.| No |
-| Edit Post >  | Created by | The admin can edit or enter the new name, with max 25 character length, has attribute required. | Tested, works as should.| No |
-| Edit Post >  | Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
-| Edit Post >  | Update Post | Clicking the Update Post button, the form saves all input data and the admin will be redirected to this Post Detail page. | Tested, works as should.| No |
+| Edit Post > Category | Clicking the category drop-down bar, the bar displays the category list, that was added from the Django administration page. Have attribute, required. The admin can edit the category from the list. | Tested, works as should.| No |
+| Edit Post >  Post Title | The admin can edit or enter the new Post Title text with a max of 254 characters length. Have attribute, required. | Tested, works as should.| No |
+| Edit Post >  Post Content | The admin can edit or enter the new Post content, with max length not specified, the admin should enough for post content, has attribute required. | Tested, works as should.| No |
+| Edit Post >  Created by | The admin can edit or enter the new name, with max 25 character length, has attribute required. | Tested, works as should.| No |
+| Edit Post >  Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
+| Edit Post >  Update Post | Clicking the Update Post button, the form saves all input data and the admin will be redirected to this Post Detail page. | Tested, works as should.| No |
 
 ### Admin | Delete Post
 

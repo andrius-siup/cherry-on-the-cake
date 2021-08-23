@@ -342,6 +342,10 @@ footer ul {
     color: #000;
 } */
 
+.bg-transparent {
+    background-color: #e9ecef78!important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
