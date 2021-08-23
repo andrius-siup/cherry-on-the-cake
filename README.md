@@ -777,7 +777,17 @@ To deploy the app using Heroku, use the following steps:
 |  |  |
 | Post Detail > Delete Comment | Clicking the Delete link in the Comment, the comment will be removed from the website. | Tested, works as should.| No |
 
-## The secret key was accidentally pushed to the repo
+## Bugs
+
+[FieldError at /blog/](/media/bug-same-word-in-modul-created.png) - fixed this error to replace **created_date** into **date**.
+
+[MultipleObjectsReturned at /blog/11/](/media/multipleobjectsreturn.png) - I fixed this error by added an objects filter (```comments = BlogPostComment.objects.filter(post=post)```).
+
+[UnboundLocalError at /blog/11/](/media/unbundlocalerror.png) - I fixed this error by adding a local variable (``` global post ```) to the function.
+
+[AttributeError at /blog/edit/11/](/media/attributeerror.png) - Typo error. I fixed this error by adding S in word FILE.
+
+### The secret key was accidentally pushed to the repo
 
 * Removed the secret key from settings.py
 * Generate the new one key here [Random django key]("https://djecrety.ir/")
@@ -786,7 +796,12 @@ To deploy the app using Heroku, use the following steps:
 
 ## The Stripe Issues
 
-* sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the  stripe endpoint.
+* sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the stripe endpoint that will match the Gitpod app URL.
+
+[Webhook Details](/media/webhook-details.png) have to match to: [Gitpod app URL](/media/gitpod-app-url.png)
+
+
+
 
 ## Media
 
