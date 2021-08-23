@@ -330,8 +330,8 @@ footer ul {
 }
 
 /* -------------------------------- 404 error */
-.fof-container.jumbotron {
-    border-color: #e9ecef96;
+/* .fof-container.jumbotron {
+    background-color:  #e9ecef96;
 }
 
 .fof-container.jumbotron h1 {
@@ -340,7 +340,7 @@ footer ul {
 
 .fof-container.jumbotron p {
     color: #000;
-}
+} */
 
 /* -------------------------------- Media Queries */
 
