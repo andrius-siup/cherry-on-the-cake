@@ -1,4 +1,28 @@
-### Register user | Home page
+# Testing
+
+## Manual testing
+
+- [Register user Home page](#register-user-home-page)
+- [Register user Purchase a product](#register-user-purchase-a-product)
+- [Non-register user Purchase a product](#not-register-user-purchase-a-product)
+- [Admin Add Product](#admin-add-product)
+- [Admin Edit Product](#admin-edit-product)
+- [Admin Delete Product](#admin-delete-product)
+- [Admin Add Post](#admin-add-post)
+- [Admin Edit Post](#admin-edit-post)
+- [Admin Delete Post](#admin-delete-post)
+- [Admin Delete Comment](#admin-delete-comment)
+
+## Code Validators
+
+- [Code validators](#code-validators)
+- [Lighthouse](#lighthouse)
+
+## Founded Bugs
+
+- [Bugs](#bugs)
+
+## Register user Home page
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -65,8 +89,9 @@
 | Footer > Instagram | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the Instagram(future will be website account) page. | Tested, works as should.| No |
 | Footer > LinkedIn | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the LinkedIn(future will be website account) page. | Tested, works as should.| No |
 | Footer > Github | Clicking the Facebook icon on the footer, the user will be redirected on the blank window to the Github(in the future will be replaced into another social media website account) page. | Tested, works as should.| No |
+---
 
-### Register user | Purchase a product
+## Register user Purchase a product
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -81,8 +106,9 @@
 | Checkout > Complete Order | Clicking the Complete order button, if form and payment fields are validated the user will redirect to the Checkout Success page with order details summary. Also, a Success message will pop up and an email confirmation will be sent to the user email. | Tested, works as should.| No |
 | Checkout Success > Go Back To All Products | Clicking the Go Back To All Products button, the user will be redirected to the Products page. | Tested, works as should.| No |
 | Checkout > Adjust Bag | Clicking the Adjust Bag button on the Checkout page, all Bag data will be saved and the user will be redirected to the Shopping Bag page to edit the product list. | Tested, works as should.| No |
+---
 
-### Non-register user | Purchase a product
+## Not register user Purchase a product
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -91,8 +117,9 @@
 | Shopping Bag > Remove Qty | Clicking the remove quantity link, the product will be removed from your bag, Success message will pop up and the user will be redirected to the Shopping Bag page. | Tested, works as should.| No |
 | Shopping Bag > Keep Shopping | The user adds the product into the bag and looking for something else. Clicking the Keep Shopping button on the Shopping Bag page the user will be redirected to the Products page. The Shopping Bag page will be saved added products data while the user back to this page. | Tested, works as should.| No |
 | Shopping Bag > Secure Checkout | Clicking the Secure Checkout button, the user will be redirected to the Sign In page with the saved bag data. After entered the Sign In details the user will be redirected to the Checkout page to complete the order. | Tested, works as should.| No |
+---
 
-### Admin | Add Product
+## Admin Add Product
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -105,8 +132,9 @@
 | Add Product > Select Image |  Clicking the Select Image button, the window will pop up and the admin can add an image from the computer disk. | Tested, works as should.| No |
 | Add Product > Cancel | Clicking the Cancel button all entered data will be not saved and the admin will be redirected to the products page. | Tested, works as should.| No |
 | Add Product > Add Product | Clicking the Add Product button, the form will be saved, all input data will be redirected to the single product. All form fields must be filed as required, otherwise, the error message will pop up. | Tested, works as should.| No |
+---
 
-### Admin | Edit Product
+## Admin Edit Product
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -121,15 +149,17 @@
 | Edit Product > Select Image |  Clicking the Select Image button, the window will pop up and the admin can add an image from the computer disk, replace the previous image. | Tested, works as should.| No |
 | Edit Product > Cancel | Clicking the Cancel button all entered data will be not saved(previous data will be left) and the admin will be redirected to the products page. | Tested, works as should.| No |
 | Edit Product > Update Product | Clicking the Update Product button, the form will be saved(data), all input data will be redirected to the single product page. All form fields must be filed as required, otherwise, the error message will pop up. | Tested, works as should.| No |
+---
 
-### Admin | Delete Product
+## Admin Delete Product
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
 | Delete Product | Clicking the Delete link on the Products page, beside the product Rating. The product will be removed from the website and the Success message will be pop-up. The admin will be redirected to the Products page. | Tested, works as should.| No |
 | Delete Product | Clicking the Delete link in the Product Detail page, beside the product Rating. The product will be removed from the website and the Success message will be pop-up.  The admin will be redirected to the Products page. | Tested, works as should.| No |
+---
 
-### Admin | Add Post
+## Admin Add Post
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -140,8 +170,9 @@
 | Add Post > Created by | Entered text, with max 25 character length. Have attribute, required. | Tested, works as should.| No |
 | Add Post > Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
 | Add Post > Add Post | Clicking the Add Post button, the form saves all input data and the admin will be redirected to the Post Detail page. | Tested, works as should.| No |
+---
 
-### Admin | Edit Post
+## Admin Edit Post
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
@@ -153,21 +184,24 @@
 | Edit Post >  Created by | The admin can edit or enter the new name, with max 25 character length, has attribute required. | Tested, works as should.| No |
 | Edit Post >  Cancel | Clicking the Cancel button, the form data will be not saved and the admin will be redirected to the Blogs page. | Tested, works as should.| No |
 | Edit Post >  Update Post | Clicking the Update Post button, the form saves all input data and the admin will be redirected to this Post Detail page. | Tested, works as should.| No |
+---
 
-### Admin | Delete Post
+## Admin Delete Post
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
 |  |  |
 | Delete Post | Clicking the Delete link on the Blog page, below the single post category tag. The post will be removed from the website and the Success message will be pop-up. The admin will be redirected to the Blog page. | Tested, works as should.| No |
 | Delete Post | Clicking the Delete link in the Post Detail page, above the post category tag. The post will be removed from the website and the Success message will be pop-up.  The admin will be redirected to the Blog page. | Tested, works as should.| No |
+---
 
-### Admin | Delete Comment
+## Admin Delete Comment
 
 | Test | Action | Result | Errors |
 | ---| --- | --- | --- |
 |  |  |
 | Post Detail > Delete Comment | Clicking the Delete link in the Comment, the comment will be removed from the website. | Tested, works as should.| No |
+---
 
 ## Bugs
 
@@ -189,17 +223,21 @@ Typo error. I fixed this error by adding S in word FILE.
 
 ### The secret key was accidentally pushed to the repo
 
-* Removed the secret key from **settings**
-* Generate the new one key here [Random django key](https://djecrety.ir/)
-* store that key in gitpod settings environment variables as SECRET_KEY
-* in **settings** set the key like this `SECRET_KEY = os.environ.get('SECRET_KEY', '')`
+- Removed the secret key from **settings**
+- Generate the new one key here [Random django key](https://djecrety.ir/)
+- store that key in gitpod settings environment variables as SECRET_KEY
+- in **settings** set the key like this `SECRET_KEY = os.environ.get('SECRET_KEY', '')`
 
 ### The Stripe Issues
 
-* sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the stripe endpoint that will match the Gitpod app URL.
+- sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the stripe endpoint that will match the Gitpod app URL.
 
 ![Webhook Details](/media/readme/webhook-details.png)
 
  have to match to:
 
 ![Gitpod app URL](/media/readme/gitpod-app-url.png)
+
+## Code validators
+
+## Lighthouse
