@@ -22,28 +22,27 @@ This is an X Cherry eCommerce website, for the users will find the products asso
 - [Skeleton](#skeleton)
   - [Wireframe](#wireframe)
 - [Features](#features)
-  - [Existing Features](#existing-features)
-    - [Navigation Bar](#navigation-bar)
-    - [Home app features](#home-app-features)
-    - [Products app features](#products-app-features)
-    - [Blog app features](#blog-app-features)
-    - [Profiles app features](#profiles-app-features)
-    - [Bag app features](#bag-app-features)
-    - [Checkout app features](#checkout-app-features)
-    - [Footer](#footer)
+  - [Navigation Bar](#navigation-bar)
+  - [Home app features](#home-app-features)
+  - [Products app features](#products-app-features)
+  - [Blog app features](#blog-app-features)
+  - [Profiles app features](#profiles-app-features)
+  - [Bag app features](#bag-app-features)
+  - [Checkout app features](#checkout-app-features)
+  - [Footer](#footer)
   - [Future Features ideas](#future-features-ideas)
 - [Responsive](#responsive)
 - [Deployment](#deployment)
+  - [Requirements](#requirements)
   - [Download](#download)
   - [Clone Repository](#clone-repository)
   - [Creating an Environment File](#creating-an-environment-file)
-  - [MongoDB Schema](#mongodb-schema)
   - [Deployment to Heroku](#deployment-to-heroku)
 - [Testing](#testing)  
   - [Code validators](#code-validators)
   - [Lighthouse](#lighthouse)
   - [Manual Testing](#manual-testing)
-- [Tecnology Used](#tecnology-used)
+- [Technologies Used](#technologies-used)
 - [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
@@ -245,7 +244,7 @@ The target audience for X Cherry store are:
 
 ## Skeleton
 
-- Wireframe
+### Wireframe
 
 ## Features
 
@@ -444,12 +443,16 @@ The target audience for X Cherry store are:
     - Delivery - delivery cost if bag total less than 50, added delivery cost 10% of the Bag Total.
     - Grand Total - are the sum of the Bag Total and Delivery cost.
 
+### Footer
+
 ### Future Features ideas
 
 - On the product detail page will be adding more products images. That the user can look at the item from all angles.
 - Add Nutrition category on the page. That the user could purchase food supplements.
 - Add special offer discount for some period on some products.
 - Create social media login to this website.
+
+## Responsive
 
 ## Technologies Used
 
@@ -644,19 +647,26 @@ To deploy the app using Heroku, use the following steps:
 1. In the Heroku page, go to Deploy tab and choose the deployment method Github.
 1. Enter your Github link and choose the Automatic Deployments, enable every commit to push directly to Heroku.
 
-## Manual Testing
+## Testing
 
-- [Testing](TESTING.md)
+- [Manual Testing](TESTING.md)
 - [Code validators](TESTING.md)
 - [Lighthouse](TESTING.md)
 
+## Credits
 
-## Media
+### Media
 
 [hero image](https://unsplash.com/photos/23h4tMUzGZk)
 
 [speed platform](https://www.geezersboxing.co.uk/punching-bags/speedbags-platforms/geezers-fixed-speedball-platform)
 
-## Content
+### Content
 
 [about gloves](https://protips.dickssportinggoods.com/sports-and-activities/more-sports/how-to-choose-the-right-size-boxing-gloves)
+
+### Code
+
+### Resources
+
+### Acknowledgements

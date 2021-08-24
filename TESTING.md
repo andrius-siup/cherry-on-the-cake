@@ -1,5 +1,8 @@
 # Testing
 
+- [Code validators](#code-validators)
+- [Lighthouse](#lighthouse)
+
 ## Manual testing
 
 - [Register user Home page](#register-user-home-page)
@@ -12,11 +15,6 @@
 - [Admin Edit Post](#admin-edit-post)
 - [Admin Delete Post](#admin-delete-post)
 - [Admin Delete Comment](#admin-delete-comment)
-
-## Code Validators
-
-- [Code validators](#code-validators)
-- [Lighthouse](#lighthouse)
 
 ## Founded Bugs
 
