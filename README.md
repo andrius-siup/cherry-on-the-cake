@@ -454,6 +454,17 @@ The target audience for X Cherry store are:
 
 ## Responsive
 
+The website using the Bootstrap break point system, dividing the page content from one in the mobile devices, for tablets page content in two parts, laptops in three parts and for others in four parts.
+
+- The navigation bar has responsive design - mobile and tablet divices will be moved into hamburger button.
+- The Products pages are moving cards from mobile devices - one card per screen, tablets - two cards, laptops - three cards and for desktops and above four product cards per row.
+- The Product Detail page has responsive design - page divided in two parts: image and other product information. On the mobile device, image are top and other information are below, like from tablet view and above, the image and product information are side to side.
+- Blog - mobile and tablets devices main post page are keeping single post, laptop have two posts per page, desktop have three posts per page.
+- My Profile page are divided in two parts: Delivery information and Order History. Only on the mobile devices those parts splits, delivery info goes up and the order history part goes below for fully strech on the mobile devices. For Tablets and above, those two parts staying side to side.
+- Shopping Bag page have responsive design - single product are divided into five parts: those parts on the mobile device, goes in to vertical line for full size on the small screen. The tablets view and above, those parts goes into single row.
+- Checkout page are divided in two parts: Delivery form and Order Summary. On the mobiles and tablets view, Order Summary are above to Delivery Form. On the others devices they staying side to side.
+- Website all forms has responsive design that will stop the full streach on the biger screens.
+
 ## Technologies Used
 
 - [Gitpod](https://www.gitpod.io/) - used to build all the project.
@@ -669,4 +680,16 @@ To deploy the app using Heroku, use the following steps:
 
 ### Resources
 
+Code Institute course material.
+
+Bootstrap - general resource.
+
+W3Schools - general resource.
+
+Django docs - general resource.
+
 ### Acknowledgements
+
+Brian Macharia - mentor support, huge help through the project.
+
+Code Institute Tutor support team.
