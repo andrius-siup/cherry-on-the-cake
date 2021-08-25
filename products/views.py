@@ -52,13 +52,17 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
-
+    if 'DATABASE_URL' in os.environ:
+        database = "postgres"
+    else:
+        database = "sqlite"
     context = {
         'products': products,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
         'page_title': 'Products',
+        'database': database,
     }
 
     return render(request, 'products/products.html', context)
