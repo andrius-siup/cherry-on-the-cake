@@ -668,9 +668,183 @@ To deploy the app using Heroku, use the following steps:
 
 ### Media
 
-[hero image](https://unsplash.com/photos/23h4tMUzGZk)
+The [hero image](https://unsplash.com/photos/23h4tMUzGZk) image was borrowed from unsplash website.
 
-[speed platform](https://www.geezersboxing.co.uk/punching-bags/speedbags-platforms/geezers-fixed-speedball-platform)
+All product images and descriptions were borrowed from the real web stores.
+
+- Compressions:
+
+  - [UNDER ARMOUR Heatgear Core Baselayer Shorts Mens](https://www.sportsdirect.com/under-armour-heatgear-core-baselayer-shorts-mens-428276#colcode=42827603)
+
+  - [UNDER ARMOUR Armour Heat Gear Armour Compression Sleeveless Tee](https://www.sportsdirect.com/under-armour-armour-heat-gear-armour-compression-sleeveless-tee-427262#colcode=42726203)
+
+  - [UNDER ARMOUR Heat Gear Armour Long Sleeve Baselayer](https://www.sportsdirect.com/under-armour-heat-gear-armour-long-sleeve-baselayer-427265#colcode=42726503)
+
+  - [UNDER ARMOUR HeatGear Core Tights Mens](https://www.sportsdirect.com/under-armour-heatgear-core-tights-mens-428095#colcode=42809503)
+
+  - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750226)
+
+  - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750226)
+
+  - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750203)
+
+  - [UNDER ARMOUR HeatGear Short Sleeve Compression Baselayer Mens](https://www.sportsdirect.com/under-armour-heatgear-short-sleeve-compression-baselayer-mens-407013#colcode=40701301)
+
+  - [UNDER ARMOUR HeatGear Core Long Sleeve Baselayer Mens](https://www.sportsdirect.com/under-armour-heatgear-core-long-sleeve-baselayer-mens-427500#colcode=42750018)
+
+  - [UNDER ARMOUR HeatGear Core Tights Mens](https://www.sportsdirect.com/under-armour-heatgear-core-tights-mens-428277#colcode=42827703)
+
+  - [UNDER ARMOUR HeatGear Training Baselayer Top Mens](https://www.sportsdirect.com/under-armour-heatgear-training-baselayer-top-mens-427503#colcode=42750326)
+
+  - [UNDER ARMOUR Rush Compression Short Sleeve T Shirt Mens](https://www.sportsdirect.com/under-armour-rush-compression-short-sleeve-t-shirt-mens-427477#colcode=42747702)
+
+  - [UNDER ARMOUR Cg Armour Mock](https://www.sportsdirect.com/under-armour-cg-armour-mock-407020#colcode=40702091)
+
+  - [UNDER ARMOUR Armour High Gear Armour T Shirt](https://www.sportsdirect.com/under-armour-armour-high-gear-armour-t-shirt-427263#colcode=42726309)
+
+- T-Shirts:
+
+  - [LONSDALE Performance Vest Mens](https://www.sportsdirect.com/lonsdale-performance-vest-mens-632019#colcode=63201908)
+
+  - [LONSDALE Performance Vest Mens](https://www.sportsdirect.com/lonsdale-performance-vest-mens-632019#colcode=63201918)
+
+  - [LONSDALE Boxing Vest Top Mens](https://www.sportsdirect.com/lonsdale-boxing-vest-top-mens-632249#colcode=63224925)
+
+  - [LONSDALE Box Tank Vest Men](https://www.sportsdirect.com/lonsdale-box-tank-vest-mens-632251#colcode=63225125)
+
+  - [LONSDALE Boxing Vest Top Mens](https://www.sportsdirect.com/lonsdale-boxing-vest-top-mens-632249#colcode=63224922)
+
+  - [LONSDALE Boxing Vest Top Mens](https://www.sportsdirect.com/lonsdale-boxing-vest-top-mens-632249#colcode=63224901)
+
+  - [LONSDALE T Shirt Mens](https://www.sportsdirect.com/lonsdale-t-shirt-mens-632252#colcode=63225225)
+
+  - [LONSDALE T Shirt Mens](https://www.sportsdirect.com/lonsdale-t-shirt-mens-632252#colcode=63225226)
+
+  - [adidas Base Punch Boxing Vest Red](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Boxing-Vest-Red/p/000000000001086117_RED)
+
+  - [adidas Base Punch Box Vest Black](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Box-Vest-Black/p/000000000001086118_BLACK)
+
+- Shorts:
+
+  - [LONSDALE Box Short Mens](https://www.sportsdirect.com/lonsdale-box-short-mens-632004#colcode=63200450)
+
+  - [LONSDALE Box Short Mens](https://www.sportsdirect.com/lonsdale-box-short-mens-632004#colcode=63200461)
+
+  - [500 WOMEN'S BOXING SHORTS - BLACK](https://www.decathlon.co.uk/p/500-women-s-boxing-shorts-black/_/R-p-196252?mc=8543061&c=BLACK)
+
+  - [LIGHT AND BREATHABLE BOXING SHORTS 500 - GREY](https://www.decathlon.co.uk/p/light-and-breathable-boxing-shorts-500-grey/_/R-p-327374?mc=8600430&c=GREY)
+
+- Gloves:
+
+  - [Reebok Retail Boxing Gloves](https://ie.sportsdirect.com/reebok-retail-boxing-gloves-762055#colcode=76205571)
+
+  - [EVERLAST 1910 Fight Gloves Unisex Adults](https://ie.sportsdirect.com/everlast-1910-fight-gloves-unisex-adults-421951#colcode=42195116)
+
+  - [EVERLAST 1910 Fight Gloves Unisex Adults](https://ie.sportsdirect.com/everlast-1910-fight-gloves-unisex-adults-421951#colcode=42195190)
+
+  - [EVERLAST P/EL Training Gloves](https://ie.sportsdirect.com/everlast-p/el-training-gloves-762277#colcode=76227718)
+
+  - [EVERLAST P/EL Training Gloves](https://ie.sportsdirect.com/everlast-p/el-training-gloves-762277#colcode=76227703)
+
+  - [ADIDAS Hybrid 100 Boxing Gloves](https://ie.sportsdirect.com/adidas-hybrid-100-boxing-gloves-762031#colcode=76203140)
+
+  - [ADIDAS Hybrid 100 Boxing Gloves](https://ie.sportsdirect.com/adidas-hybrid-100-boxing-gloves-762031#colcode=76203108)
+
+- Head Guards:
+
+  - [ADIDAS Rookie Headguard](https://ie.sportsdirect.com/adidas-rookie-headguard-762202#colcode=76220203)
+
+  - [EVERLAST Elite Head Gaurd Mens](https://ie.sportsdirect.com/everlast-elite-head-gaurd-mens-762022#colcode=76202218)
+
+  - [Adidas AIBA Professional Headguard Boxing Red](https://www.fightwearshop.eu/en/adidas-aiba-professional-headguard-boxing-red.html)
+
+  - [Adidas AIBA Professional Headguard Boxing Blue](https://www.fightwearshop.eu/en/adidas-aiba-professional-headguard-boxing-blue.html)
+
+  - [LONSDALE Club Open Face Headguard](https://www.sportsdirect.com/lonsdale-club-open-face-headguard-770221#colcode=77022169)
+
+  - [Hit Boxing Headguard](https://www.mcsport.ie/collections/boxing-accessories-2629/products/hit-fitness-boxing-headguard)
+
+  - [ADIDAS SPEED FULL FACE HEAD GUARD](https://www.boxfituk.com/adidas-speed-full-face-head-guard/)
+
+  - [ADIDAS SPEED HEADGUARD](https://www.boxfituk.com/adidas-speed-headguard/)
+
+- Protective Gear:
+
+  - [RADIUS HYBRID HAND WRAP SYSTEM](https://www.boxfituk.com/radius-hybrid-hand-wrap-system/)
+
+  - [FLY HAND WRAPS](https://www.boxfituk.com/fly-hand-wraps/)
+
+  - [adidas Men’s PU Groin Guard Black/White](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Men%E2%80%99s-PU-Groin-Guard-Black-White/p/000000000001115031_BLACK)
+
+  - [](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Boxing-Short%2C-Black/p/000000000001086116_BLACK)
+
+  - [](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Boxing-Short%2C-Red/p/000000000001086115_RED)
+
+  - [](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Nike-Mens-2-Short-Black/p/000000000001114065_BLACK)
+
+  - [PUMA MENS KNIT 10 SESSION SHORT BLACK](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Puma-Mens-Knit-10-Session-Short-Black/p/000000000001111873_BLACK)
+
+  - [](https://www.elverys.ie/elverys/en/Elverys/Men/Clothing/T-shirts/Energetics-Mens-Allen-IV-2n1-Short-Black/p/000000000001114789_BLACK)
+
+- Skipping ropes:
+
+  - [BODY SCULPTURE SKIPPING ROPE BLACK](https://www.elverys.ie/elverys/en/Elverys/Fitness/Accessories/Accessories/Body-Sculpture-Skipping-Rope-Black/p/000000000070871001)
+
+  - [BODY SCULPTURE 9' PVC SKIPPING ROPE BLUE](https://www.elverys.ie/elverys/en/Elverys/Fitness/Accessories/Accessories/Body-Sculpture-9%27-PVC-Skipping-Rope-Blue/p/000000000001040347)
+
+  - [BODY SCULPTURE 9 CABLE SPEED SKIP ROPE](https://www.elverys.ie/elverys/en/Elverys/Fitness/Accessories/Skip-Ropes/Body-Sculpture-9-Cable-Speed-Skip-Rope/p/000000000001115188)
+
+  - [Everlast Leather Skipping Rope](https://www.sportsdirect.com/everlast-leather-skipping-rope-760481#colcode=76048190)
+
+  - [USA PRO Pro Cardio Skipping Rope](https://www.sportsdirect.com/usa-pro-pro-cardio-skipping-rope-761037#colcode=76103702)
+
+  - [Everlast Leather Skipping Rope](https://www.sportsdirect.com/everlast-leather-skipping-rope-761356#colcode=76135603)
+
+  - [LONSDALE Club Skipping Rope](https://www.sportsdirect.com/lonsdale-club-skipping-rope-761137#colcode=76113706)
+
+  - [ADIDAS Skipping Rope](https://www.sportsdirect.com/adidas-skipping-rope-762324#colcode=76232403)
+
+- Boxing Bags:
+
+  - [PUNCHING BAG 850 - RED](https://www.decathlon.co.uk/p/punching-bag-850-red/_/R-p-138425?mc=8365166&c=RED)
+
+  - [BOXING PUNCHING BAG 120 - BLUE](https://www.decathlon.co.uk/p/boxing-punching-bag-120-blue/_/R-p-325820?mc=8588398&c=BLUE)
+
+  - [PUNCHING BAG 500 ANGLE - BURGUNDY](https://www.decathlon.co.uk/p/punching-bag-500-angle-burgundy/_/R-p-312721?mc=8574782&c=BORDEAUX)
+
+  - [FREE-STANDING PUNCHING BAG - BLACK](https://www.decathlon.co.uk/p/free-standing-punching-bag-black/_/R-p-7964?mc=8064899&c=BLACK)
+
+  - [LONSDALE Fitness Strike Bag](https://www.sportsdirect.com/lonsdale-fitness-strike-bag-762217#colcode=76221703)
+
+  - [LONSDALE Angle PU Punchbag](https://www.sportsdirect.com/lonsdale-angle-pu-punchbag-852799#colcode=85279969)
+
+  - [USI 3FT NYLON BOXING BAG RED](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/Punchbag/USI-3Ft-Nylon-Boxing-Bag-Red/p/000000000001048465)
+
+  - [USI 5FT NYLON BOXING BAG](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/Punchbag/USI-5Ft-Nylon-Boxing-Bag/p/000000000001048467)
+
+  - [USF BOXING BAG STAND](https://www.elverys.ie/elverys/en/Elverys/Fitness/Home-Gym-Equipment/USF-Range/USF-Boxing-Bag-Stand/p/000000000001048375)
+
+- Speed Bag:
+
+  - [USI ECONOMY SPEED BALL](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/USI-Economy-Speed-Ball/p/000000000001100682)
+
+  - [LONSDALE LION SPEEDBALL PLATFORM](https://www.boxfituk.com/lonsdale-lion-speedball-platform/)
+
+  - [EXIGO ELITE FIXED SPEEDBALL PLATFORM](https://www.boxfituk.com/exigo-club-pro-fixed-speedball-platform/)
+
+  - [HRD HANDMADE SOLID OAK SPEEDBALL PLATFORM](https://www.boxfituk.com/hrd-handmade-solid-oak-speedball-platform/)
+
+  - [CARBON CLAW ADJUSTABLE SPEEDBALL FRAME WITH RIG](https://www.boxfituk.com/carbon-claw-adjustable-speedball-frame-with-rig/)
+
+  - [BBE SPEEDBALL FRAME FOLDING](https://www.boxfituk.com/bbe-speedball-frame-folding/)
+
+  - [PRO BOX ELITE SPEED BALL FRAME](https://www.boxfituk.com/pro-box-elite-speed-ball-frame/)
+
+  - [PRO BOX PROFESSIONAL SPEEDBALL PLATFORM](https://www.boxfituk.com/pro-box-professional-speedball-platform/)
+
+  - [PRO BOX ORIGINAL LEATHER SPEEDBALL](https://www.boxfituk.com/pro-box-original-leather-speedball/)
+
+  - [PRO BOX CLUB SPEEDBALL LEATHER](https://www.boxfituk.com/pro-box-club-speedball-leather/)
 
 ### Content
 
