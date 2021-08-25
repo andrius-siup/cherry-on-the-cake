@@ -546,6 +546,11 @@ footer ul {
         height: 90vh;
     }
 
+    /* ------------------------------- Product Detail */
+    .product-details-container {
+        height: 90vh;
+    }
+
 
 }
 
