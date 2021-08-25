@@ -52,6 +52,8 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
+    import os
+    
     if 'DATABASE_URL' in os.environ:
         database = "postgres"
     else:
