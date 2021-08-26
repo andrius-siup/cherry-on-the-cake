@@ -739,6 +739,12 @@ All product images and descriptions were borrowed from the real web stores.
 
   - [LIGHT AND BREATHABLE BOXING SHORTS 500 - GREY](https://www.decathlon.co.uk/p/light-and-breathable-boxing-shorts-500-grey/_/R-p-327374?mc=8600430&c=GREY)
 
+  - [adidas Amateur Boxing Shorts Red White](https://www.fightwearshop.eu/en/adidas-amateur-boxing-shorts-red-white.html)
+
+  - [adidas Amateur Boxing Shorts Blue White](https://www.fightwearshop.eu/en/adidas-amateur-boxing-shorts-blue-white.html)
+
+  - [Lonsdale Box Lightweight Shorts Mens](https://www.sportsdirect.com/lonsdale-box-lightweight-shorts-mens-632244#colcode=63224403)
+
 - Gloves:
 
   - [Reebok Retail Boxing Gloves](https://ie.sportsdirect.com/reebok-retail-boxing-gloves-762055#colcode=76205571)
@@ -788,6 +794,12 @@ All product images and descriptions were borrowed from the real web stores.
   - [](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Nike-Mens-2-Short-Black/p/000000000001114065_BLACK)
 
   - [PUMA MENS KNIT 10 SESSION SHORT BLACK](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Puma-Mens-Knit-10-Session-Short-Black/p/000000000001111873_BLACK)
+
+  - [Everlast 180 inch Handwrap](https://www.sportsdirect.com/everlast-180-inch-handwrap-762057#colcode=76205710)
+
+  - [Everlast 180 inch Handwrap](https://www.sportsdirect.com/everlast-180-inch-handwrap-762057#colcode=76205706)
+
+  - [adidas Knuckle Protectors](https://www.sportsdirect.com/adidas-knuckle-protectors-762321#colcode=76232103)
 
   - [](https://www.elverys.ie/elverys/en/Elverys/Men/Clothing/T-shirts/Energetics-Mens-Allen-IV-2n1-Short-Black/p/000000000001114789_BLACK)
 
