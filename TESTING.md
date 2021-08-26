@@ -239,3 +239,15 @@ Typo error. I fixed this error by adding S in word FILE.
 ## Code validators
 
 ## Lighthouse
+
+![mobile](/media/readme/lighthouse/mobile-first-test.png)
+
+![desktop](/media/readme/lighthouse/desktop-first-test.png)
+
+- Buttons do not have an accessible name:
+  - Added into the search button ``` aria-label="Enter search term" ```
+
+- Links do not have a discernible name:
+  - Added into the social media icon links ``` aria-label="with the name of social media" ```
+
+- Heading elements are not in a sequentially-descending order:

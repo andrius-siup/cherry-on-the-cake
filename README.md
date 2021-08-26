@@ -445,12 +445,17 @@ The target audience for X Cherry store are:
 
 ### Footer
 
+- The footer features have social media links. The social links open on the new blank tab.
+
 ### Future Features ideas
 
-- On the product detail page will be adding more products images. That the user can look at the item from all angles.
+- In the will be added button "Contact Us", the shopper will be redirected to the contact us page. There will be a form that the user will fill in and send to us.
+- On the product detail, the page will be adding more products images. That the user can look at the item from all angles. Also will be adding products reviews below the all product detail page. The users can will  write a comment about the product.
 - Add Nutrition category on the page. That the user could purchase food supplements.
 - Add special offer discount for some period on some products.
 - Create social media login to this website.
+- Below the hero image will be put on a google map, with pin store location, for users that they want to collect the purchase items.
+- At the bottom of the Home page will be a section with "click and collect" information, for local users.
 
 ## Responsive
 
@@ -861,6 +866,8 @@ Bootstrap - general resource.
 W3Schools - general resource.
 
 Django docs - general resource.
+
+For 403, 404, and 500 Error Handling pages - I will get inspiration from this [tutorial](https://www.youtube.com/watch?v=gsW5gYTNi34).
 
 ### Acknowledgements
 
