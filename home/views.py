@@ -9,6 +9,10 @@ def index(request):
     return render(request, 'home/index.html', {'page_title': 'Home'})
 
 
+def error_403_view(request, exception):
+    return render(request, '403.html')
+
+
 def error_404_view(request, exception):
     return render(request, '404.html')
 
