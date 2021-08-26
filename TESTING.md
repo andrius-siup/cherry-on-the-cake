@@ -240,7 +240,11 @@ Typo error. I fixed this error by adding S in word FILE.
 
 ## Lighthouse
 
+Mobile test
+
 ![mobile](/media/readme/lighthouse/mobile-first-test.png)
+
+Desktop test
 
 ![desktop](/media/readme/lighthouse/desktop-first-test.png)
 
@@ -259,5 +263,7 @@ Typo error. I fixed this error by adding S in word FILE.
 
 - Document does not have a meta description:
   - Added meta desription ``` <meta name="description" content="Boxing website store for beginners and advanced boxers."> ```
+
+After added atributes
 
 ![all-pass](/media/readme/lighthouse/all-pass.png)
