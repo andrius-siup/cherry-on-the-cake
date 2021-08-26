@@ -244,7 +244,7 @@ The target audience for X Cherry store are:
 
 ## Skeleton
 
-### Wireframe
+### [Wireframe](WIREFRAME.md)
 
 ## Features
 
