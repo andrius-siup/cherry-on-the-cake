@@ -317,20 +317,20 @@ The target audience for X Cherry store are:
       - All Training Gear - shows all 3 categories of products.
     - Clicking the Blog link - redirecting to the site blog page.
 
-### Home app features
+### Home page features
 
 - Hero image on loading page.
 - Shop Now button. Mouse over change the button background color. Redirecting to the products page.
 
-### Products app features
+### Products page features
 
-- products.html features are to store all products on a single page. The single product is wrapped in the card.
+- The Products page features are to store all products on a single page. The single product is wrapped in the card.
   - Product counter - shows how many products are in the store.
   - The card shows the product image, name, price, category(link to this category products), and rating. The website admin has access to edit and delete links beside the rating.
   - The drop-down sort bar - sorting products by price, rating, name, or category.
   - Back to top link - bring you to the top of the page.
   - Break Line - separate the products by the device screen size.
-- product_details.html features are single product pages. There is display all information about the product.
+- The Product Detail page features are single product pages. There is display all information about the product.
   - Product image - bigger size image.
   - Product name
   - Product price
@@ -340,7 +340,7 @@ The target audience for X Cherry store are:
   - Quantity - how many items the user wants to buy. Always shows 1, but the user can choose from 1-99. There are plus(+) and minus(-) symbols buttons, or the user can simply input the number.
   - Keep Shopping button - redirecting the user into the products page.
   - Add to Bag button - adding the item into the shopping bag. The shopping bag icon in the navbar displays the price and pop-up Success message, which displays all information: product name, size, quantity, total(without delivery), total how much to spend to get free delivery, and button to the checkout page.
-- add_product.html features are input form to add the product to the store. Only the admin has access to this page. The form fields are:
+- The Add Product page features are input form to add the product to the store. Only the admin has access to this page. The form fields are:
   - Category - drop-down bar with all categories that added admin from the Django administration page.
   - SKU - it is product detail short code, the admin can input the max character 254 lengths.
   - Name - product name, max character length are 254 and have an attribute, required.
@@ -352,35 +352,35 @@ The target audience for X Cherry store are:
   - Select Image button - add an image from your computer. Not required, then used default image.
   - Cancel button - redirecting the user into the products page.
   - Add Product button - save all input data and redirecting to the Product Detail page. All form fields must be filed as required, otherwise, the error message will pop up.
-- edit_product.html features are to edit the Product Detail page. There is the same form as on the Add Product page and all requirements are the same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only the admin has access to this page.
+- The Edit Product page features are to edit the Product Detail page. There is the same form as on the Add Product page and all requirements are the same. Here you can simply edit text, replace image. The pop-up messages will display for your success or error for wrong inputs in the form. Only the admin has access to this page.
 - Delete product - there are delete product links into Products and the Product Detail pages besides the product rating. Simply removing all product data from the website. Only Admin has access to do it.
 
-### Blog app features
+### Blog page features
 
-- Blog app features are to store the website post. There only the admin can add new, edit or delete posts. All posts will be displayed by added date order. The Latest added will be first on the page.
-  - blogs.html features are:
+- Blog page features are to store the website post. There only the admin can add new, edit or delete posts. All posts will be displayed by added date order. The Latest added will be first on the page.
+  - The Blog page  features are:
     - Search bar - searched the input word into the post title or post content. If the word will match the founded posts show by latest first, also displaying how many posts find.
     - Sorting bar - sorting posts by name, category, and date. You can use the search bar to find the post and sort than by date. To reset your searches click the Back to Blog link.
     - Add Post button - only admin has access to this page, there is a hide for other users, but if the user goes to this page by URL, then he will be redirected to 404 error page.
     - The single post will displays into a card: post title, created date, short content about 50 words, post category(link to this category posts), and button to redirecting to the Post Detail page.
     - Back to Top button - stick in the right bottom page corner, simply bring the user top of the page.
-  - blog_post_detail.html features are to see the single post with all content.  A registered user has access to this page. There is also a link to edit and delete the post(only admin has access), post category link, button to back to Blog home page. Below the Post Detail content displaying the user's comments. At the bottom of the page, there is the Add Comment form with a button. Added new comments will be displayed at the top in the comment section. Only the admin has access to delete comments. Every single comment has a delete link.
-  - add_blog_post.html features are to add a post into the blog. Only the admin has access to do this. There is a form:
+  - The Blog Post Detail page features are to see the single post with all content.  A registered user has access to this page. There is also a link to edit and delete the post(only admin has access), post category link, button to back to Blog home page. Below the Post Detail content displaying the user's comments. At the bottom of the page, there is the Add Comment form with a button. Added new comments will be displayed at the top in the comment section. Only the admin has access to delete comments. Every single comment has a delete link.
+  - The Add Blog Post page features are to add a post into the blog. Only the admin has access to do this. There is a form:
     - Category - drop-down bar with categories list, that was added from the Django administration page, has attribute required.
     - Post Title - input field with max 254 character length, has attribute required.
     - Content - input text, not specified max length, the admin should enough for post content, has attribute required.
     - Created by - input text, with max 25 character length, has attribute required.
     - Cancel button - not save the input data and redirecting to the blogs page.
     - Add Post button - save all input data and redirecting to the post_detail page.
-  - edit_blog_post.html features are to edit single the blog post. Only the admin has access to this page. There is a form same as like to add post form, just with saved all data that admin can edit or replace. There are two buttons:
+  - The Edit Blog Post page features are to edit single the blog post. Only the admin has access to this page. There is a form same as like to add post form, just with saved all data that admin can edit or replace. There are two buttons:
     - Cancel button - not save the input data, leave the old data, and redirecting into the blogs page.
     - Update Post button - save the input data and redirecting to the Post Detail page.
   - delete post features are to delete posts with all data from the website. Only the admin has access to do this.
 
-### Profiles app features
+### My Profiles page features
 
-- Profiles app features are to keep the user delivery information and order history.
-  - profile.html features are the page divided into 2 parts:
+- My Profiles page features are to keep the user delivery information and order history.
+  - The My Profiles page features are the page divided into 2 parts:
     - Default Delivery information - a form with saved user details after the first bought product. All form fields are simply editable if the user needed:
       - Phone Number - the input field with a max of 20 characters long.
       - Street Address 1 - the input field with the max 80 character length.
@@ -396,9 +396,9 @@ The target audience for X Cherry store are:
       - Items - displaying the product item's name.
       - Order total - displaying grand total of the order.
 
-### Bag app features
+### Bag page features
 
-- Bag app features are the keep all user products before to buy it. There are displaying:
+- The Bag page features are the keep all user products before to buy it. There are displaying:
   - Products image
   - Products name
   - SKU
@@ -415,9 +415,9 @@ The target audience for X Cherry store are:
   - Keep Shopping button - redirecting the user into the products page and save all products into the shopping bag page. The user can simply back into the shopping bag clicked the bag icon in the navbar.
   - Secure Checkout button - redirecting the user into the checkout page.
 
-### Checkout app features
+### Checkout page features
 
-- Checkout app features are a form and stripe payment details. The page is divided into two sections, user delivery form and order summary. There is also an input payment field and buttons to complete the order. Also, generate unique order number max 32 characters long, that will be displayed in the order history. A confirmation email s sent to the user.
+- The Checkout page features are a form and stripe payment details. The page is divided into two sections, user delivery form and order summary. There is also an input payment field and buttons to complete the order. Also, generate unique order number max 32 characters long, that will be displayed in the order history. A confirmation email s sent to the user.
   - Form
     - Full Name - the input field with a max of 50 characters long.
     - Email Address - the input field with a max of 254 characters long.
