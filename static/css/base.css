@@ -329,6 +329,10 @@ footer ul {
     font-size: 1.7rem;
 }
 
+#delivery-banner h2 {
+    font-size: 1em;
+}
+
 /* -------------------------------- 404 error */
 /* .fof-container.jumbotron {
     background-color:  #e9ecef96;

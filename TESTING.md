@@ -251,3 +251,13 @@ Typo error. I fixed this error by adding S in word FILE.
   - Added into the social media icon links ``` aria-label="with the name of social media" ```
 
 - Heading elements are not in a sequentially-descending order:
+  - For delivery banner. Replace h4 into h2 and set font-size 1em.
+  - For Shop Now button. Replace h4 into div.
+
+- Links to cross-origin destinations are unsafe:
+  - Added attribute rel="noopener" into anchor for social media links.
+
+- Document does not have a meta description:
+  - Added meta desription ``` <meta name="description" content="Boxing website store for beginners and advanced boxers."> ```
+
+![all-pass](/media/readme/lighthouse/all-pass.png)
