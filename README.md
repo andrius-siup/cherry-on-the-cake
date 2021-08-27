@@ -681,18 +681,6 @@ All product images and descriptions were borrowed from the real web stores.
 
 - Compressions:
 
-  - [UNDER ARMOUR Heatgear Core Baselayer Shorts Mens](https://www.sportsdirect.com/under-armour-heatgear-core-baselayer-shorts-mens-428276#colcode=42827603)
-
-  - [UNDER ARMOUR Armour Heat Gear Armour Compression Sleeveless Tee](https://www.sportsdirect.com/under-armour-armour-heat-gear-armour-compression-sleeveless-tee-427262#colcode=42726203)
-
-  - [UNDER ARMOUR Heat Gear Armour Long Sleeve Baselayer](https://www.sportsdirect.com/under-armour-heat-gear-armour-long-sleeve-baselayer-427265#colcode=42726503)
-
-  - [UNDER ARMOUR HeatGear Core Tights Mens](https://www.sportsdirect.com/under-armour-heatgear-core-tights-mens-428095#colcode=42809503)
-
-  - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750226)
-
-  - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750226)
-
   - [UNDER ARMOUR Heatgear Core T Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750203)
 
   - [UNDER ARMOUR HeatGear Short Sleeve Compression Baselayer Mens](https://www.sportsdirect.com/under-armour-heatgear-short-sleeve-compression-baselayer-mens-407013#colcode=40701301)
@@ -708,6 +696,10 @@ All product images and descriptions were borrowed from the real web stores.
   - [UNDER ARMOUR Cg Armour Mock](https://www.sportsdirect.com/under-armour-cg-armour-mock-407020#colcode=40702091)
 
   - [UNDER ARMOUR Armour High Gear Armour T Shirt](https://www.sportsdirect.com/under-armour-armour-high-gear-armour-t-shirt-427263#colcode=42726309)
+
+  - [Under Armour Heatgear Core t Shirt Mens](https://www.sportsdirect.com/under-armour-heatgear-core-t-shirt-mens-427502#colcode=42750202)
+
+  - [Under Armour Heatgear Core Long Sleeve Baselayer Mens](https://www.sportsdirect.com/under-armour-heatgear-core-long-sleeve-baselayer-mens-427500#colcode=42750003)
 
 - T-Shirts:
 
@@ -747,6 +739,12 @@ All product images and descriptions were borrowed from the real web stores.
 
   - [Lonsdale Box Lightweight Shorts Mens](https://www.sportsdirect.com/lonsdale-box-lightweight-shorts-mens-632244#colcode=63224403)
 
+  - [Puma Mens Knit 10 Session Short Black](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Puma-Mens-Knit-10-Session-Short-Black/p/000000000001111873_BLACK)
+
+  - [Lonsdale Box Lightweight Shorts Mens](https://www.sportsdirect.com/lonsdale-box-lightweight-shorts-mens-632244#colcode=63224425)
+
+  - [UA Woven Graphic Mens Shorts Black Grey](https://www.elverys.ie/elverys/en/Elverys/Men/Clothing/Shorts/UA-Woven-Graphic-Mens-Shorts-Black-Grey/p/000000000001087757_BLACK)
+
 - Gloves:
 
   - [Reebok Retail Boxing Gloves](https://ie.sportsdirect.com/reebok-retail-boxing-gloves-762055#colcode=76205571)
@@ -763,7 +761,19 @@ All product images and descriptions were borrowed from the real web stores.
 
   - [ADIDAS Hybrid 100 Boxing Gloves](https://ie.sportsdirect.com/adidas-hybrid-100-boxing-gloves-762031#colcode=76203108)
 
+  - [Everlast Pro Training Gloves](https://www.sportsdirect.com/everlast-pro-training-gloves-762086#colcode=76208603)
+
+  - [Everlast Pro Training Gloves](https://www.sportsdirect.com/everlast-pro-training-gloves-762086#colcode=76208606)
+
+  - [Everlast Pro Training Gloves](https://www.sportsdirect.com/everlast-pro-training-gloves-762086#colcode=76208608)
+
+  - [Everlast Powerlock Training Gloves](https://www.sportsdirect.com/everlast-powerlock-training-gloves-762090#colcode=76209065)
+
 - Head Guards:
+
+  - [Everlast Evercool Head Guard](https://www.sportsdirect.com/everlast-evercool-head-guard-762196#colcode=76219603)
+
+  - [Everlast Elite Head Gaurd Mens](https://www.sportsdirect.com/everlast-elite-head-gaurd-mens-762022#colcode=76202208)
 
   - [ADIDAS Rookie Headguard](https://ie.sportsdirect.com/adidas-rookie-headguard-762202#colcode=76220203)
 
@@ -783,13 +793,9 @@ All product images and descriptions were borrowed from the real web stores.
 
 - Protective Gear:
 
-  - [RADIUS HYBRID HAND WRAP SYSTEM](https://www.boxfituk.com/radius-hybrid-hand-wrap-system/)
-
   - [FLY HAND WRAPS](https://www.boxfituk.com/fly-hand-wraps/)
 
   - [adidas Men’s PU Groin Guard Black/White](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Men%E2%80%99s-PU-Groin-Guard-Black-White/p/000000000001115031_BLACK)
-
-  - [PUMA MENS KNIT 10 SESSION SHORT BLACK](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Puma-Mens-Knit-10-Session-Short-Black/p/000000000001111873_BLACK)
 
   - [Everlast 180 inch Handwrap](https://www.sportsdirect.com/everlast-180-inch-handwrap-762057#colcode=76205710)
 
@@ -797,7 +803,19 @@ All product images and descriptions were borrowed from the real web stores.
 
   - [adidas Knuckle Protectors](https://www.sportsdirect.com/adidas-knuckle-protectors-762321#colcode=76232103)
 
-  - [](https://www.elverys.ie/elverys/en/Elverys/Men/Clothing/T-shirts/Energetics-Mens-Allen-IV-2n1-Short-Black/p/000000000001114789_BLACK)
+  - [Adidas 255cm Hand Wraps](https://www.sportsdirect.com/adidas-255cm-hand-wraps-762046#colcode=76204603)
+
+  - [Adidas Hybrid Groin Guard](https://www.sportsdirect.com/adidas-hybrid-groin-guard-760888#colcode=76088803)
+
+  - [Everlast Gel Handwraps](https://www.sportsdirect.com/everlast-gel-handwraps-761001#colcode=76100103)
+
+  - [Everlast Gel Wraps](https://www.sportsdirect.com/everlast-gel-wraps-769029#colcode=76902913)
+
+  - [Everlast Mouthguard Mens](https://www.sportsdirect.com/everlast-mouthguard-mens-760487#colcode=76048732)
+
+  - [Everlast Protective Cup](https://www.sportsdirect.com/everlast-protective-cup-760492#colcode=76049201)
+
+  - [Lonsdale Chest Guard Womens](https://www.sportsdirect.com/lonsdale-chest-guard-womens-762270#colcode=76227003)
 
 - Skipping ropes:
 
@@ -817,7 +835,13 @@ All product images and descriptions were borrowed from the real web stores.
 
   - [ADIDAS Skipping Rope](https://www.sportsdirect.com/adidas-skipping-rope-762324#colcode=76232403)
 
+  - [Sklz Jump Rope](https://www.sportsdirect.com/sklz-jump-rope-760102#colcode=76010203)
+
+  - [Lonsdale Club Skipping Rope](https://www.sportsdirect.com/lonsdale-club-skipping-rope-761137#colcode=76113703)
+
 - Boxing Bags:
+
+  - [Lonsdale pu Punchbag](https://www.sportsdirect.com/lonsdale-pu-punchbag-831182#colcode=83118269)
 
   - [PUNCHING BAG 850 - RED](https://www.decathlon.co.uk/p/punching-bag-850-red/_/R-p-138425?mc=8365166&c=RED)
 
@@ -858,6 +882,8 @@ All product images and descriptions were borrowed from the real web stores.
   - [PRO BOX ORIGINAL LEATHER SPEEDBALL](https://www.boxfituk.com/pro-box-original-leather-speedball/)
 
   - [PRO BOX CLUB SPEEDBALL LEATHER](https://www.boxfituk.com/pro-box-club-speedball-leather/)
+
+  - [EVERLAST EVERHIDE SPEED BAG](https://www.sportsdirect.com/everlast-everhide-speed-bag-adults-762073#colcode=76207303)
 
 ### Content
 
