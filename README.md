@@ -865,9 +865,18 @@ All product images and descriptions were borrowed from the real web stores.
 
 ### Content
 
-[about gloves](https://protips.dickssportinggoods.com/sports-and-activities/more-sports/how-to-choose-the-right-size-boxing-gloves)
+Used for Creating Blog posts:
+
+- [How to choose the right size boxing gloves](https://protips.dickssportinggoods.com/sports-and-activities/more-sports/how-to-choose-the-right-size-boxing-gloves)
+
+- [Fit a Mouth Guard](https://www.wikihow.com/Fit-a-Mouth-Guard)
 
 ### Code
+
+### Credit
+
+- The inspiration for the website was taken from the Code Institute lectures presented by Chris Zielinski.
+- For 403, 404, and 500 Error Handling pages - I will taken inspiration from this [tutorial](https://www.youtube.com/watch?v=gsW5gYTNi34).
 
 ### Resources
 
@@ -878,8 +887,6 @@ Bootstrap - general resource.
 W3Schools - general resource.
 
 Django docs - general resource.
-
-For 403, 404, and 500 Error Handling pages - I will get inspiration from this [tutorial](https://www.youtube.com/watch?v=gsW5gYTNi34).
 
 ### Acknowledgements
 
