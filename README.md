@@ -1,5 +1,7 @@
 # X Cherry
 
+![Responsive-design](/media/readme/responsive-design.png)
+
 ## Project Summary
 
 This is an X Cherry eCommerce website, for the users will find the products associated with the boxing sport. There is also a Blog section, where the admin has grand to add posts associated with healthy living and combat sports. The registered users have access to view the single post and add comments. I hope this website will create a boxing sports community, where the advanced boxers can share tips with beginners. The admin also has access to add, edit or delete products from the store, remove users' comments, and lots more. The website has a responsive design, from small phone devices to large screens. The website was created for educational purposes.
@@ -786,12 +788,6 @@ All product images and descriptions were borrowed from the real web stores.
   - [FLY HAND WRAPS](https://www.boxfituk.com/fly-hand-wraps/)
 
   - [adidas Men’s PU Groin Guard Black/White](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Men%E2%80%99s-PU-Groin-Guard-Black-White/p/000000000001115031_BLACK)
-
-  - [](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Boxing-Short%2C-Black/p/000000000001086116_BLACK)
-
-  - [](https://www.elverys.ie/elverys/en/Elverys/Sports/Combat-Sports/Boxing-Equipment/adidas-Base-Punch-Boxing-Short%2C-Red/p/000000000001086115_RED)
-
-  - [](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Nike-Mens-2-Short-Black/p/000000000001114065_BLACK)
 
   - [PUMA MENS KNIT 10 SESSION SHORT BLACK](https://www.elverys.ie/elverys/en/Elverys/Running-%26-Fitness/All-Training-/Puma-Mens-Knit-10-Session-Short-Black/p/000000000001111873_BLACK)
 
