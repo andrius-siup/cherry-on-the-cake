@@ -238,6 +238,24 @@ Typo error. I fixed this error by adding S in word FILE.
 
 ## Code validators
 
+### W3C HTML Validator
+
+There was found error, duplicate id. Fixed that, renamed id.
+
+![W3C HTML Validator](/media/readme/lighthouse/html.png)
+
+### W3C CSS Validator
+
+No errors, just few warnings.
+
+![W3C CSS Validator](/media/readme/lighthouse/base.css.png)
+
+### JSHint
+
+No errors, just two warnings.
+
+![jshint](/media/readme/lighthouse/jshint.png)
+
 ## Lighthouse
 
 Mobile test
