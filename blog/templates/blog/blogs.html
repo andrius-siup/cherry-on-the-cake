@@ -18,12 +18,6 @@
         <div class="col text-center">
             <hr>
             <h2 class="logo-font mb-4">X Cherry Blog</h2>
-            <!-- for loop and content doesn't need to you it's good if will be show multiple categories -->
-            <!-- {% for c in current_categories %}
-                <a href="{% url 'posts' %}?category={{ c.name }}" class="category-badge text-decoration-none">
-                    <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-black">{{ c.friendly_name }}</span>
-                </a>
-            {% endfor %} -->
             <hr>
         </div>
     </div>
@@ -96,7 +90,6 @@
                                             <i class="fas fa-tag mr-1"></i>{{ post.category.friendly_name }}
                                         </a>
                                     </p>
-                                    <!-- <p><strong>{{ post.created_by }}</strong></p> -->
                                 {% endif %}
 
                                 {% if request.user.is_superuser %}
@@ -110,7 +103,7 @@
                             </div>
                             <div class="card-footer bg-white pt-0 border-0 text-center mb-5">
                                 <a href="{% url 'blog_post_detail' post.id %}" class="btn btn-outline-black rounded-0">
-                                    <span class="text-uppercase">view more</span>
+                                    <span class="text-lowercase">continue reading</span>
                                 </a>
                             </div>
                         </div>
