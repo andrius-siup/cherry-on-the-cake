@@ -228,7 +228,7 @@ Typo error. I fixed this error by adding S in word FILE.
 
 ### The Stripe Issues
 
-- sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the stripe endpoint that will match the Gitpod app URL.
+- sometimes accidentally Gitpod will change app URL and it doen't match the Stripe endpoint. When I saw the stripe error it will fix it easily change the stripe endpoint that will match the Gitpod app URL. Otherwise, stop the server, restart the workspace, and restart the server.
 
 ![Webhook Details](/media/readme/webhook-details.png)
 
