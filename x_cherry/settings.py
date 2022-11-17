@@ -26,12 +26,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-# SECURITY WARNING: don't run with debug turned on in production! Before submit False
+# SECURITY WARNING: don't run with debug turned on in production!
+# Before submit False
 # DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = False
 
 ALLOWED_HOSTS = ['andrius-siup-x-cherry.herokuapp.com', 'localhost']
 
+# Add Render.com URL to allowed hosts
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 # Application definition
 
@@ -83,7 +88,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',  # req by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -126,7 +131,9 @@ WSGI_APPLICATION = 'x_cherry.wsgi.application'
 if 'DATABASE_URL' in os.environ:
     print("Postgres")
     print(os.environ.get('DATABASE_URL'))
-    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
 else:
     print("Databse URL not found. Using SQLite3")
     DATABASES = {
